@@ -1,0 +1,1962 @@
+<!DOCTYPE html>
+<html lang="es" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🇦🇷 JR PERFUMERÍA 🇵🇾 | Perfumería Importada &amp; Vapers • Pedidos al 388 585-6562</title>
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Tailwind Custom Luxury Theme Configuration -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            jr: {
+              gold: '#FACC15',
+              goldBright: '#FFD600',
+              dark: '#0D0D10',
+              card: '#17171C',
+              cardHover: '#1F1F27',
+              border: '#2A2A32',
+              whatsapp: '#25D366',
+              whatsappHover: '#1EBE5D'
+            }
+          },
+          boxShadow: {
+            'gold': '0 0 26px -5px rgba(250, 204, 21, 0.35)',
+            'gold-sm': '0 0 14px -2px rgba(250, 204, 21, 0.28)',
+            'wp': '0 8px 24px -4px rgba(37, 211, 102, 0.45)'
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    body {
+      background-color: #0D0D10;
+      color: #F4F4F6;
+      overflow-x: hidden;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .product-card {
+      transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.22s ease, box-shadow 0.22s ease;
+    }
+    .product-card:hover {
+      transform: translateY(-3px);
+      border-color: rgba(250, 204, 21, 0.55);
+      box-shadow: 0 14px 28px -10px rgba(0, 0, 0, 0.75), 0 0 20px -6px rgba(250, 204, 21, 0.16);
+    }
+
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    @keyframes floatPulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .wp-float-pulse {
+      animation: floatPulse 2.8s infinite ease-in-out;
+    }
+
+    /* Limpieza preventiva de badges externos de hosting gratuito */
+    a[href*="netlify.com"],
+    a[href*="tiiny.host"],
+    [class*="netlify-badge"],
+    iframe[src*="netlify"] {
+      display: none !important;
+      visibility: hidden !important;
+      opacity: 0 !important;
+      pointer-events: none !important;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col selection:bg-jr-gold selection:text-black">
+
+  <!-- ========================================================================= -->
+  <!-- CINTILLO SUPERIOR DE CONFIANZA                                            -->
+  <!-- ========================================================================= -->
+  <div class="bg-jr-gold text-black text-[11px] sm:text-xs font-extrabold py-2 px-3 text-center tracking-tight">
+    <div class="max-w-7xl mx-auto flex items-center justify-center gap-2 flex-wrap">
+      <span>🇦🇷 JR PERFUMERÍA 🇵🇾 • IMPORTADOS ORIGINALES</span>
+      <span class="hidden sm:inline">•</span>
+      <span class="bg-black/15 px-2.5 py-0.5 rounded-full font-black">Envíos a todo el país • Venta por Unidad y Por Mayor</span>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- CABECERA FIJA: LOGO JR + CARRITO ARRIBA + BUSCADOR + CATEGORÍAS           -->
+  <!-- ========================================================================= -->
+  <header class="sticky top-0 z-40 bg-jr-dark/95 backdrop-blur-xl border-b border-jr-border shadow-xl">
+    <div class="max-w-7xl mx-auto px-3.5 sm:px-6 pt-3 pb-2.5 space-y-3">
+
+      <!-- Fila 1: Logo Oficial SVG + Carrito Fijo Arriba a la Derecha -->
+      <div class="flex items-center justify-between gap-2">
+        <a href="#" onclick="resetFilters(); return false;" class="flex items-center gap-2.5 sm:gap-3.5 group min-w-0">
+          <!-- Logo Oficial Monograma JR con Corona Negra sobre Fondo Amarillo Dorado -->
+          <div class="w-11 h-11 sm:w-12 sm:h-12 rounded-2xl overflow-hidden shadow-gold-sm border-2 border-jr-gold shrink-0 group-hover:scale-105 transition">
+            <svg viewBox="0 0 200 200" class="w-full h-full" xmlns="http://www.w3.org/2000/svg" aria-label="Logo Oficial JR PERFUMERÍA">
+              <rect width="200" height="200" rx="26" fill="#FACC15" />
+              <!-- Corona negra de 3 puntas -->
+              <path d="M 71 54 L 63 36 L 80 44 C 79 49, 85 51, 88 47 C 89 45, 89 42, 86 39 L 94 24 L 102 39 C 99 42, 99 45, 100 47 C 103 51, 109 49, 108 44 L 125 36 L 117 54 Z" fill="#0A0A0A" />
+              <!-- Monograma Serif JR entrelazado -->
+              <path d="M 63 60 H 116 C 141 60, 154 71, 154 89 C 154 103, 143 113, 125 118 L 154 156 C 158 161, 163 164, 170 164 V 167 H 152 C 144 167, 140 164, 134 155 L 112 122 L 85 132 V 121 L 115 110 C 129 105, 136 98, 136 87 C 136 73, 126 65, 109 65 H 105 V 109 L 95 113 V 65 H 89 C 84 65, 81 68, 81 74 V 149 C 81 174, 67 186, 49 186 C 38 186, 32 179, 32 169 C 32 157, 43 147, 67 136 V 147 C 51 154, 45 160, 45 167 C 45 172, 49 175, 54 175 C 64 175, 70 165, 70 147 V 74 C 70 68, 67 65, 63 65 Z" fill="#0A0A0A" />
+              <path d="M 95 133 L 105 129 V 156 C 105 161, 108 163, 114 163 V 167 H 86 V 163 C 92 163, 95 161, 95 156 Z" fill="#0A0A0A" />
+            </svg>
+          </div>
+          <div class="min-w-0">
+            <h1 class="text-sm sm:text-xl font-black tracking-tight text-white leading-none truncate">
+              🇦🇷 JR <span class="text-jr-gold">PERFUMERÍA</span> 🇵🇾
+            </h1>
+            <p class="text-[10px] sm:text-xs text-zinc-400 font-medium mt-1 truncate">
+              Perfumería Importada &amp; Vapers • Envíos a todo el país
+            </p>
+          </div>
+        </a>
+
+        <!-- Acciones Derecha: WhatsApp (Desktop) + Carrito Principal SIEMPRE ARRIBA -->
+        <div class="flex items-center gap-2 shrink-0">
+          <button
+            onclick="openGeneralWhatsApp()"
+            class="hidden md:flex bg-jr-whatsapp/15 hover:bg-jr-whatsapp text-jr-whatsapp hover:text-black border border-jr-whatsapp/40 font-extrabold px-3.5 py-2.5 rounded-2xl text-xs transition items-center gap-1.5 active:scale-95"
+            title="Consultar por WhatsApp al 388 585-6562"
+          >
+            <i class="fa-brands fa-whatsapp text-base"></i>
+            <span>388 585-6562</span>
+          </button>
+
+          <button
+            onclick="toggleCart(true)"
+            id="headerCartBtn"
+            class="bg-jr-gold hover:bg-yellow-300 text-black font-black px-3 sm:px-4 py-2.5 rounded-2xl text-xs sm:text-sm transition shadow-gold-sm flex items-center gap-2 active:scale-95 border border-yellow-300"
+            aria-label="Abrir Carrito de Compras"
+          >
+            <span class="text-sm sm:text-base">🛒</span>
+            <div class="text-left leading-none">
+              <span class="font-black block">Carrito</span>
+              <span id="headerCartTotalText" class="text-[10px] font-extrabold text-black/80 hidden sm:inline">$0</span>
+            </div>
+            <span id="headerCartBadge" class="bg-black text-jr-gold text-xs font-black px-2 py-0.5 rounded-full min-w-[22px] text-center">0</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Fila 2: Buscador en Vivo por Nombre, Marca o Nota Olfativa -->
+      <div class="relative">
+        <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-jr-gold text-sm"></i>
+        <input
+          type="text"
+          id="mainSearchInput"
+          oninput="handleSearch(this.value)"
+          placeholder="Buscá por perfume, marca o aroma: Ej. Khamrah, Hawas, vainilla, Ignite, Medicube..."
+          class="w-full bg-jr-card border border-jr-border focus:border-jr-gold rounded-2xl pl-11 pr-10 py-2.5 sm:py-3 text-xs sm:text-sm text-white placeholder-zinc-400 font-medium focus:outline-none transition"
+        />
+        <button
+          id="clearSearchBtn"
+          onclick="handleSearch('')"
+          class="hidden absolute right-3.5 top-1/2 -translate-y-1/2 text-zinc-400 hover:text-white p-1"
+          aria-label="Limpiar búsqueda"
+        >
+          <i class="fa-solid fa-circle-xmark text-base"></i>
+        </button>
+      </div>
+
+      <!-- Fila 3: Pestañas Horizontales Deslizables de Categorías -->
+      <div id="categoryTabsContainer" class="flex items-center gap-2 overflow-x-auto no-scrollbar pt-0.5 pb-1">
+        <!-- Generado dinámicamente por JS -->
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================= -->
+  <!-- CONTENIDO PRINCIPAL DEL CATÁLOGO                                          -->
+  <!-- ========================================================================= -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-3.5 sm:px-6 py-4 sm:py-6 space-y-5">
+
+    <!-- SELECTOR VISIBLE DE MODO DE COMPRA: UNIDAD vs POR MAYOR -->
+    <section class="bg-gradient-to-r from-jr-card via-[#1B1B23] to-jr-card border border-jr-border rounded-3xl p-3.5 sm:p-4 shadow-lg">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-3">
+        <div>
+          <p class="text-xs sm:text-sm font-black text-white flex items-center gap-1.5">
+            <i class="fa-solid fa-tags text-jr-gold"></i>
+            Elegí cómo querés ver los precios principales:
+          </p>
+          <p class="text-[11px] text-zinc-400 mt-0.5">
+            En cada producto siempre vas a ver ambos valores (Unidad y Por Mayor) para comparar al instante.
+          </p>
+        </div>
+
+        <!-- Toggle Dual Grande y Claro -->
+        <div class="grid grid-cols-2 gap-1.5 bg-jr-dark p-1.5 rounded-2xl border border-jr-border w-full md:w-auto shrink-0">
+          <button
+            id="modeBtn-unidad"
+            onclick="setPriceMode('unidad')"
+            class="px-4 py-2.5 rounded-xl text-xs sm:text-sm font-black transition flex items-center justify-center gap-1.5 bg-jr-gold text-black shadow-gold-sm"
+          >
+            <span>👤</span>
+            <span>Precio por Unidad</span>
+          </button>
+          <button
+            id="modeBtn-mayor"
+            onclick="setPriceMode('mayor')"
+            class="px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition flex items-center justify-center gap-1.5 text-zinc-300 hover:text-white"
+          >
+            <span>📦</span>
+            <span>Precio por Mayor</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- AVISO ESPECIAL PARA VAPERS (SE DESTACA AL VER VAPERS O TODOS) -->
+    <section id="vapersNoticeBanner" class="bg-gradient-to-r from-amber-500/15 via-jr-gold/10 to-purple-500/15 border border-jr-gold/40 rounded-2xl px-4 py-3 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+      <div class="flex items-center gap-2.5">
+        <span class="w-9 h-9 rounded-xl bg-jr-gold text-black flex items-center justify-center text-lg shrink-0 font-black">💨</span>
+        <div>
+          <p class="text-xs sm:text-sm font-black text-jr-gold">Vapers Importados • Mayorista a partir de 10 unidades</p>
+          <p class="text-[11px] text-zinc-300">Consultar sabores disponibles directo al WhatsApp <strong>388 585-6562</strong>.</p>
+        </div>
+      </div>
+      <button
+        onclick="selectCategory('vapers')"
+        id="quickVapersBtn"
+        class="shrink-0 bg-jr-gold/20 hover:bg-jr-gold text-jr-gold hover:text-black border border-jr-gold/50 font-extrabold px-3.5 py-1.5 rounded-xl text-xs transition self-start sm:self-center"
+      >
+        Ver solo Vapers →
+      </button>
+    </section>
+
+    <!-- FILTROS DE PRESUPUESTO, ORDEN Y VISTA (TARJETAS / LISTA) -->
+    <section class="bg-jr-card border border-jr-border rounded-2xl p-3 sm:p-3.5 flex flex-col lg:flex-row lg:items-center justify-between gap-3">
+
+      <!-- Filtro por Presupuesto -->
+      <div class="flex items-center gap-1.5 overflow-x-auto no-scrollbar">
+        <span class="text-[11px] font-bold text-zinc-400 uppercase tracking-wider mr-1 shrink-0">
+          <i class="fa-solid fa-wallet text-jr-gold mr-1"></i>Presupuesto:
+        </span>
+        <button onclick="setBudgetFilter('all')" id="budgetBtn-all" class="shrink-0 px-3 py-1.5 rounded-xl text-xs font-extrabold bg-jr-gold text-black transition">Todos</button>
+        <button onclick="setBudgetFilter('upTo50')" id="budgetBtn-upTo50" class="shrink-0 px-3 py-1.5 rounded-xl text-xs font-bold bg-jr-dark text-zinc-300 hover:text-white border border-jr-border transition">Hasta $50.000</button>
+        <button onclick="setBudgetFilter('upTo100')" id="budgetBtn-upTo100" class="shrink-0 px-3 py-1.5 rounded-xl text-xs font-bold bg-jr-dark text-zinc-300 hover:text-white border border-jr-border transition">Hasta $100.000</button>
+        <button onclick="setBudgetFilter('over100')" id="budgetBtn-over100" class="shrink-0 px-3 py-1.5 rounded-xl text-xs font-bold bg-jr-dark text-zinc-300 hover:text-white border border-jr-border transition">+$100.000</button>
+      </div>
+
+      <!-- Ordenar + Cambiar Vista -->
+      <div class="flex items-center justify-between sm:justify-end gap-2 pt-2 lg:pt-0 border-t lg:border-t-0 border-jr-border">
+        <div class="flex items-center gap-1.5">
+          <label for="sortSelect" class="text-[11px] font-bold text-zinc-400 shrink-0">Ordenar:</label>
+          <select
+            id="sortSelect"
+            onchange="setSortOrder(this.value)"
+            class="bg-jr-dark border border-jr-border focus:border-jr-gold rounded-xl px-2.5 py-1.5 text-xs font-bold text-white focus:outline-none"
+          >
+            <option value="recommended">Recomendado</option>
+            <option value="price-asc">Menor precio ⬇️</option>
+            <option value="price-desc">Mayor precio ⬆️</option>
+            <option value="az">Nombre A - Z</option>
+          </select>
+        </div>
+
+        <!-- Selector Tarjetas / Lista -->
+        <div class="inline-flex rounded-xl bg-jr-dark p-1 border border-jr-border shrink-0">
+          <button
+            onclick="setViewMode('grid')"
+            id="viewBtn-grid"
+            class="px-2.5 py-1 rounded-lg text-xs font-extrabold bg-jr-gold text-black transition flex items-center gap-1"
+            title="Vista en Tarjetas"
+          >
+            <i class="fa-solid fa-grip"></i> <span class="hidden sm:inline">Tarjetas</span>
+          </button>
+          <button
+            onclick="setViewMode('list')"
+            id="viewBtn-list"
+            class="px-2.5 py-1 rounded-lg text-xs font-bold text-zinc-400 hover:text-white transition flex items-center gap-1"
+            title="Vista en Lista Compacta"
+          >
+            <i class="fa-solid fa-list"></i> <span class="hidden sm:inline">Lista</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resumen de Resultados Activos -->
+    <div class="flex items-center justify-between text-xs text-zinc-400 px-1">
+      <span id="resultsCountText">Cargando catálogo...</span>
+      <button
+        id="resetAllFiltersBtn"
+        onclick="resetFilters()"
+        class="hidden text-jr-gold hover:underline font-bold flex items-center gap-1"
+      >
+        <i class="fa-solid fa-rotate-left"></i> Quitar filtros
+      </button>
+    </div>
+
+    <!-- CONTENEDOR DINÁMICO DE PRODUCTOS -->
+    <div id="catalogSectionsContainer" class="space-y-8">
+      <!-- Renderizado por JS -->
+    </div>
+
+    <!-- ESTADO SIN RESULTADOS -->
+    <div id="emptyCatalogState" class="hidden text-center py-12 bg-jr-card border border-jr-border rounded-3xl my-4 px-4">
+      <div class="w-16 h-16 rounded-2xl bg-jr-gold/10 border border-jr-gold/30 text-jr-gold flex items-center justify-center text-2xl mx-auto mb-3">
+        <i class="fa-solid fa-spray-can-sparkles"></i>
+      </div>
+      <h3 class="text-base sm:text-lg font-black text-white mb-1">No encontramos resultados con ese filtro</h3>
+      <p class="text-xs sm:text-sm text-zinc-400 max-w-md mx-auto mb-5">
+        Probá buscar otra palabra o consultanos directo por WhatsApp si buscás un perfume o sabor de vaper en especial.
+      </p>
+      <div class="flex flex-wrap items-center justify-center gap-3">
+        <button
+          onclick="resetFilters()"
+          class="bg-zinc-800 hover:bg-zinc-700 text-white font-bold px-4 py-3 rounded-xl text-xs sm:text-sm transition"
+        >
+          Ver todo el catálogo
+        </button>
+        <button
+          onclick="openGeneralWhatsApp()"
+          class="bg-jr-whatsapp hover:bg-jr-whatsappHover text-black font-black px-5 py-3 rounded-xl text-xs sm:text-sm transition flex items-center gap-2 shadow-wp"
+        >
+          <i class="fa-brands fa-whatsapp text-lg"></i> Consultar al 388 585-6562
+        </button>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- PIE DE PÁGINA + ACCESO DISCRETO AL PANEL DUEÑO                            -->
+  <!-- ========================================================================= -->
+  <footer class="bg-black/60 border-t border-jr-border mt-12 py-8 px-4 sm:px-6 pb-20 sm:pb-10">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-jr-gold text-black font-black flex items-center justify-center text-sm shrink-0">
+          JR
+        </div>
+        <div>
+          <p class="font-black text-white text-sm">🇦🇷 JR PERFUMERÍA 🇵🇾 • Importados &amp; Vapers</p>
+          <p class="text-xs text-zinc-400">Envíos a todo el país • WhatsApp directo: <strong class="text-jr-gold">388 585-6562</strong></p>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap items-center justify-center gap-4">
+        <button
+          onclick="openGeneralWhatsApp()"
+          class="bg-jr-whatsapp/15 hover:bg-jr-whatsapp text-jr-whatsapp hover:text-black border border-jr-whatsapp/35 px-4 py-2 rounded-xl text-xs font-extrabold transition flex items-center gap-1.5"
+        >
+          <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp: 388 585-6562
+        </button>
+
+        <!-- Botón Discreto Solo Para el Dueño -->
+        <button
+          onclick="openAdminModal()"
+          class="text-[11px] text-zinc-500 hover:text-jr-gold transition underline"
+        >
+          🔒 Panel Dueño / Descargar Web
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================= -->
+  <!-- BOTÓN REDONDO CLÁSICO DE WHATSAPP FLOTANTE (SIN BARRA INFERIOR)           -->
+  <!-- ========================================================================= -->
+  <a
+    id="floatingWhatsAppBtn"
+    href="https://wa.me/5493885856562?text=Hola%20JR%20PERFUMER%C3%8DA!%20%F0%9F%91%8B%20Quiero%20hacer%20una%20consulta."
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Chatear por WhatsApp con JR PERFUMERÍA al 388 585-6562"
+    title="WhatsApp Directo: 388 585-6562"
+    style="position: fixed; bottom: 24px; right: 20px; z-index: 2147483640;"
+    class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-jr-whatsapp hover:bg-jr-whatsappHover text-white flex items-center justify-center shadow-[0_8px_28px_rgba(37,211,102,0.55)] border-2 border-white/25 transition transform hover:scale-110 active:scale-95 wp-float-pulse"
+  >
+    <i class="fa-brands fa-whatsapp text-3xl sm:text-4xl drop-shadow"></i>
+  </a>
+
+  <!-- ========================================================================= -->
+  <!-- MODAL / DRAWER DEL CARRITO DE COMPRAS                                     -->
+  <!-- ========================================================================= -->
+  <div id="cartDrawerBackdrop" style="z-index: 2147483647;" class="fixed inset-0 bg-black/80 backdrop-blur-sm hidden">
+    <div class="fixed inset-y-0 right-0 max-w-full flex pl-6 sm:pl-10">
+      <div class="w-screen max-w-md bg-jr-card border-l border-jr-border flex flex-col justify-between shadow-2xl">
+
+        <!-- Cabecera del Carrito -->
+        <div class="p-4 sm:p-5 border-b border-jr-border flex items-center justify-between bg-jr-dark">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-jr-gold text-black flex items-center justify-center font-black text-lg">
+              🛒
+            </div>
+            <div>
+              <h2 class="text-base font-black text-white">Tu Pedido • JR PERFUMERÍA</h2>
+              <p class="text-xs text-jr-whatsapp font-semibold">Se envía directo al 388 585-6562</p>
+            </div>
+          </div>
+          <button
+            onclick="toggleCart(false)"
+            class="w-9 h-9 rounded-xl bg-jr-card hover:bg-zinc-800 text-zinc-400 hover:text-white flex items-center justify-center border border-jr-border"
+            aria-label="Cerrar carrito"
+          >
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+
+        <!-- Selector de Tarifa dentro del Carrito -->
+        <div class="px-4 sm:px-5 pt-3 pb-2 bg-jr-dark/60 border-b border-jr-border">
+          <div class="flex items-center justify-between gap-2">
+            <span class="text-[11px] font-bold text-zinc-400 uppercase">Tipo de pedido:</span>
+            <div class="inline-flex bg-jr-dark p-1 rounded-xl border border-jr-border">
+              <button
+                id="cartModeBtn-unidad"
+                onclick="setPriceMode('unidad')"
+                class="px-3 py-1 rounded-lg text-[11px] font-black bg-jr-gold text-black transition"
+              >
+                👤 Unidad
+              </button>
+              <button
+                id="cartModeBtn-mayor"
+                onclick="setPriceMode('mayor')"
+                class="px-3 py-1 rounded-lg text-[11px] font-bold text-zinc-400 hover:text-white transition"
+              >
+                📦 Por Mayor
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lista de Productos en el Carrito -->
+        <div class="flex-1 overflow-y-auto p-4 sm:p-5 space-y-5">
+          <div id="cartItemsContainer" class="space-y-3"></div>
+
+          <!-- Datos Opcionales para Facilitar el Envío -->
+          <div class="space-y-3 pt-4 border-t border-jr-border">
+            <div>
+              <label for="customerName" class="block text-xs text-zinc-300 mb-1 font-bold">Tu Nombre (Opcional)</label>
+              <input
+                type="text"
+                id="customerName"
+                placeholder="Ej: Sofi / Lucas"
+                class="w-full bg-jr-dark border border-jr-border focus:border-jr-gold rounded-xl px-3.5 py-2.5 text-sm text-white placeholder-zinc-500 focus:outline-none"
+              />
+            </div>
+
+            <div>
+              <label for="deliveryMethod" class="block text-xs text-zinc-300 mb-1 font-bold">Entrega / Envío</label>
+              <select
+                id="deliveryMethod"
+                class="w-full bg-jr-dark border border-jr-border focus:border-jr-gold rounded-xl px-3.5 py-2.5 text-sm text-white focus:outline-none"
+              >
+                <option value="Retiro / Coordinar encuentro">🤝 Retiro / Coordinar encuentro</option>
+                <option value="Envío a domicilio">🛵 Envío a domicilio</option>
+                <option value="Envío a todo el país">📦 Envío a todo el país</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Total y Botón de Envío a WhatsApp -->
+        <div class="p-4 sm:p-5 border-t border-jr-border bg-jr-dark space-y-3">
+          <div class="flex items-center justify-between">
+            <div>
+              <span class="text-xs text-zinc-400 font-bold block">Total Estimado:</span>
+              <span id="cartModeLabel" class="text-[11px] text-jr-gold font-bold">Tarifa por Unidad</span>
+            </div>
+            <span id="cartDrawerTotal" class="text-2xl font-black text-jr-gold">$0</span>
+          </div>
+
+          <button
+            onclick="sendCartViaWhatsApp()"
+            class="w-full bg-jr-whatsapp hover:bg-jr-whatsappHover text-black font-black py-3.5 px-4 rounded-2xl text-sm sm:text-base transition flex items-center justify-center gap-2 shadow-wp active:scale-95"
+          >
+            <i class="fa-brands fa-whatsapp text-xl"></i> Enviar Pedido por WhatsApp
+          </button>
+
+          <div class="flex items-center justify-between pt-1">
+            <button onclick="toggleCart(false)" class="text-xs text-zinc-400 hover:text-white font-semibold">
+              ← Seguir viendo catálogo
+            </button>
+            <button onclick="clearCart()" class="text-xs text-rose-400 hover:text-rose-300 font-semibold">
+              Vaciar carrito
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- PANEL DUEÑO PRIVADO (RECARGOS +30% / +25% + DESCARGAR INDEX.HTML)         -->
+  <!-- ========================================================================= -->
+  <div id="adminModalBackdrop" style="z-index: 2147483647;" class="fixed inset-0 bg-black/85 backdrop-blur-sm hidden flex items-center justify-center p-4">
+    <div class="bg-jr-card border-2 border-jr-gold/50 rounded-3xl max-w-xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden">
+
+      <div class="p-5 border-b border-jr-border flex items-center justify-between bg-jr-dark">
+        <div>
+          <h3 class="text-base sm:text-lg font-black text-white">🔒 Panel Dueño • JR PERFUMERÍA</h3>
+          <p class="text-xs text-zinc-400">Ajustá tus márgenes en vivo y descargá tu web actualizada</p>
+        </div>
+        <button
+          onclick="closeAdminModal()"
+          class="w-9 h-9 rounded-xl bg-jr-card hover:bg-zinc-800 text-zinc-400 hover:text-white flex items-center justify-center border border-jr-border"
+        >
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="p-5 overflow-y-auto space-y-5 text-sm">
+
+        <!-- Configuración de Recargos -->
+        <div class="bg-jr-dark border border-jr-border p-4 rounded-2xl space-y-4">
+          <div class="flex items-center justify-between flex-wrap gap-2">
+            <span class="text-xs font-black uppercase tracking-wider text-jr-gold">
+              <i class="fa-solid fa-sliders mr-1"></i> Regla de Recargo sobre el Catálogo
+            </span>
+            <div class="inline-flex bg-jr-card p-1 rounded-xl border border-jr-border">
+              <button
+                id="markupTypeBtn-percent"
+                onclick="setAdminMarkupType('percent')"
+                class="px-3 py-1 rounded-lg text-xs font-black bg-jr-gold text-black transition"
+              >
+                Porcentaje (%)
+              </button>
+              <button
+                id="markupTypeBtn-fixed"
+                onclick="setAdminMarkupType('fixed')"
+                class="px-3 py-1 rounded-lg text-xs font-bold text-zinc-400 hover:text-white transition"
+              >
+                Monto Fijo ($)
+              </button>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div>
+              <label for="adminUnidadInput" id="adminUnidadLabel" class="block text-xs font-bold text-zinc-200 mb-1">
+                Recargo por Unidad (%)
+              </label>
+              <input
+                type="number"
+                id="adminUnidadInput"
+                class="w-full bg-jr-card border border-jr-border focus:border-jr-gold rounded-xl px-3.5 py-2.5 text-sm text-white font-bold focus:outline-none"
+              />
+            </div>
+            <div>
+              <label for="adminMayorInput" id="adminMayorLabel" class="block text-xs font-bold text-zinc-200 mb-1">
+                Recargo por Mayor (%)
+              </label>
+              <input
+                type="number"
+                id="adminMayorInput"
+                class="w-full bg-jr-card border border-jr-border focus:border-jr-gold rounded-xl px-3.5 py-2.5 text-sm text-white font-bold focus:outline-none"
+              />
+            </div>
+          </div>
+
+          <p id="markupPreviewHint" class="text-[11px] text-zinc-400 bg-jr-card/70 px-3 py-2 rounded-xl border border-jr-border">
+            Ejemplo con base $100.000: Unidad → $130.000 | Por Mayor → $125.000 (redondeo automático a $100).
+          </p>
+
+          <div>
+            <label for="adminWhatsappInput" class="block text-xs font-bold text-zinc-200 mb-1">
+              <i class="fa-brands fa-whatsapp text-jr-whatsapp mr-1"></i> Número de WhatsApp (con código de país)
+            </label>
+            <input
+              type="text"
+              id="adminWhatsappInput"
+              class="w-full bg-jr-card border border-jr-border focus:border-jr-gold rounded-xl px-3.5 py-2.5 text-sm text-white font-bold focus:outline-none"
+            />
+          </div>
+
+          <div class="flex flex-wrap items-center justify-between gap-2 pt-1">
+            <button
+              onclick="resetDefaultConfig()"
+              class="text-xs text-zinc-400 hover:text-jr-gold underline font-semibold"
+            >
+              Restaurar (+30% Unidad / +25% Mayor)
+            </button>
+            <button
+              onclick="saveOwnerSettings()"
+              class="bg-jr-whatsapp hover:bg-jr-whatsappHover text-black font-black px-4 py-2.5 rounded-xl text-xs transition"
+            >
+              ✅ Guardar y Aplicar Precios
+            </button>
+          </div>
+        </div>
+
+        <!-- Exportar y Descargar index.html listo para Internet -->
+        <div class="bg-gradient-to-br from-jr-gold/15 via-jr-dark to-jr-dark border-2 border-jr-gold/50 p-4 rounded-2xl space-y-3">
+          <div class="flex items-center gap-2 text-jr-gold font-black text-sm">
+            <i class="fa-solid fa-rocket"></i>
+            <span>Publicar en Netlify o Tiiny.host</span>
+          </div>
+          <p class="text-xs text-zinc-300 leading-relaxed">
+            Descargá el archivo <code>index.html</code> con tus márgenes actuales y tu WhatsApp ya guardados adentro, y subilo a <strong>app.netlify.com</strong> o <strong>tiiny.host</strong> con el nombre <strong>jrperfumeria</strong>.
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            <button
+              onclick="downloadStandaloneHtml()"
+              class="bg-jr-gold hover:bg-yellow-300 text-black font-black py-3 px-4 rounded-xl text-xs transition flex items-center justify-center gap-2 shadow-gold-sm"
+            >
+              <i class="fa-solid fa-download"></i> ⬇️ Descargar index.html
+            </button>
+            <button
+              onclick="copyCatalogForWhatsApp()"
+              class="bg-zinc-800 hover:bg-zinc-700 text-white font-bold py-3 px-4 rounded-xl text-xs transition flex items-center justify-center gap-2 border border-jr-border"
+            >
+              <i class="fa-regular fa-copy"></i> 📋 Copiar Lista p/ WhatsApp
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- NOTIFICACIÓN TOAST -->
+  <div id="toastNotification" style="z-index: 2147483647;" class="fixed top-20 right-4 bg-jr-card border-2 border-jr-gold text-white px-4 py-3 rounded-2xl shadow-gold flex items-center gap-2.5 transform -translate-y-12 opacity-0 transition-all duration-300 pointer-events-none">
+    <i class="fa-solid fa-circle-check text-jr-whatsapp text-base"></i>
+    <span id="toastMessage" class="text-xs sm:text-sm font-extrabold">Listo</span>
+  </div>
+
+  <!-- CONFIGURACIÓN INCRUSTADA (SE ACTUALIZA AUTOMÁTICAMENTE AL DESCARGAR INDEX.HTML) -->
+  <script id="jr-baked-config">
+    window.JR_BAKED_CONFIG = {
+      markupType: 'percent',
+      markupUnidad: 30,
+      markupMayor: 25,
+      whatsappNumber: '5493885856562'
+    };
+  </script>
+
+  <!-- LÓGICA COMPLETA DE LA TIENDA Y CATÁLOGO DE 335 PRODUCTOS -->
+  <script>
+    /* =========================================================================
+       1. DEFINICIÓN DE CATEGORÍAS Y ORDEN DE VISUALIZACIÓN
+       ========================================================================= */
+    const CATEGORIES = [
+      { id: 'all',          label: 'Todos',                emoji: '🔥', title: 'Catálogo Completo' },
+      { id: 'vapers',       label: 'Vapers',               emoji: '💨', title: '💨 Vapers Importados' },
+      { id: 'bharara',      label: 'Bharara',              emoji: '✨', title: '✨ Bharara' },
+      { id: 'alharamain',   label: 'Al Haramain',          emoji: '✨', title: '✨ Al Haramain' },
+      { id: 'rasasi',       label: 'Rasasi (Hawas)',       emoji: '✨', title: '✨ Rasasi (Línea Hawas)' },
+      { id: 'frenchavenue', label: 'French Avenue',        emoji: '✨', title: '✨ French Avenue' },
+      { id: 'armaf',        label: 'Armaf',                emoji: '✨', title: '✨ Armaf' },
+      { id: 'lattafa',      label: 'Lattafa',              emoji: '✨', title: '✨ Lattafa' },
+      { id: 'afnan',        label: 'Afnan',                emoji: '✨', title: '✨ Afnan' },
+      { id: 'otrasarabes',  label: 'Otras Árabes',         emoji: '✨', title: '✨ Otras Perfumerías Árabes' },
+      { id: 'disenador',    label: 'Diseñador & Ariana',   emoji: '💎', title: '💎 Perfumería de Diseñador & Ariana Grande' },
+      { id: 'kits',         label: 'Kits de Regalo',       emoji: '🎁', title: '🎁 Kits de Regalo & Colecciones' },
+      { id: 'sprays',       label: 'Sprays, Desod. & VS',  emoji: '🌸', title: "🌸 All Over Spray, Desodorantes & Victoria's Secret" },
+      { id: 'skincare',     label: 'Skincare & Capilar',   emoji: '🧴', title: '🧴 Skincare Coreano & Cuidado Capilar' }
+    ];
+
+    /* =========================================================================
+       2. CATÁLOGO COMPLETO (335 PRODUCTOS CON PRECIOS BASE DEL CATÁLOGO)
+       Formato compacto: [categoria, marca, nombre, baseMenor, baseMayor, notas/desc]
+       ========================================================================= */
+    const RAW_PRODUCTS = [
+      // 1. VAPERS (11)
+      ['vapers', 'Elfbar', 'Elfbar 30K', 23000, 20700, 'Consultar sabores disponibles • Mayorista desde 10 unidades'],
+      ['vapers', 'Elfbar', 'Elfbar 40K Ice King', 25000, 22500, 'Consultar sabores disponibles • Mayorista desde 10 unidades'],
+      ['vapers', 'EBCreate', 'EBCreate BC Pro 40K', 18000, 16200, 'Consultar sabores disponibles • Mayorista desde 10 unidades'],
+      ['vapers', 'Ignite', 'Ignite V155 15.5K', 18000, 16200, 'Consultar sabores disponibles • Mayorista desde 10 unidades'],
+      ['vapers', 'Ignite', 'Ignite V300 30K', 23000, 20700, 'Consultar sabores disponibles • Mayorista desde 10 unidades'],
+      ['vapers', 'Ignite', 'Ignite V400 40K Mix', 25000, 22500, 'Consultar sabores disponibles • Mayorista desde 10 unidades'],
+      ['vapers', 'Ignite', 'Ignite V400 40K Slim', 25000, 22500, 'Consultar sabores disponibles • Mayorista desde 10 unidades'],
+      ['vapers', 'Ignite', 'Ignite V400 40K Ice', 25000, 22500, 'Consultar sabores disponibles • Mayorista desde 10 unidades'],
+      ['vapers', 'Ignite', 'Ignite V400 40K Sweet', 25000, 22500, 'Consultar sabores disponibles • Mayorista desde 10 unidades'],
+      ['vapers', 'BLVK', 'BLVK 45K', 25000, 22500, 'Consultar sabores disponibles • Mayorista desde 10 unidades'],
+      ['vapers', 'Ignite', 'Ignite V500 50K', 30000, 27000, 'Consultar sabores disponibles • Mayorista desde 10 unidades'],
+
+      // 2. BHARARA (7)
+      ['bharara', 'Bharara', 'Bharara King Parfum', 112000, 102000, 'Naranja, bergamota, limón, cóctel de frutas, vainilla, almizcle blanco y ámbar.'],
+      ['bharara', 'Bharara', 'Bharara King EDP', 96000, 86000, 'Naranja, bergamota, limón, cóctel de frutas, vainilla, almizcle blanco y ámbar.'],
+      ['bharara', 'Bharara', 'Bharara Rey de Reyes', 110000, 100000, 'Enebro, cardamomo, pimienta rosa, lavanda, geranio, ambroxan, pachulí y sándalo.'],
+      ['bharara', 'Bharara', 'Rome Melancholia', 74000, 64000, 'Lavanda, cardamomo, piña, violeta, coco, vainilla, ámbar gris y maderas.'],
+      ['bharara', 'Bharara', 'Rome Melancholia Fem', 74000, 64000, 'Frutas amarillas, flores blancas, lavanda, caramelo, violeta y ámbar blanco.'],
+      ['bharara', 'Bharara', 'Rome La Bomba', 74000, 64000, 'Pitahaya, notas cítricas, peonía, frangipani, vainilla y pachulí.'],
+      ['bharara', 'Bharara', 'Rome Extradose Fem', 74000, 64000, 'Bergamota, grosella negra, coco, ciruela, jazmín, vainilla, ámbar y haba tonka.'],
+
+      // 3. AL HARAMAIN (3)
+      ['alharamain', 'Al Haramain', 'Aqua Dubai', 91000, 81000, 'Bergamota, mandarina, ámbar, melón, grosellas negras, piña, almizcle y vainilla.'],
+      ['alharamain', 'Al Haramain', 'Dubai Night', 80000, 70000, 'Azafrán, bergamota, rosa de Bulgaria, oud, haba tonka, ámbar y almizcle blanco.'],
+      ['alharamain', 'Al Haramain', 'Amber Oud Gold Edition 120ml', 96000, 86000, 'Bergamota, notas verdes, melón, piña, ámbar, acorde goloso, vainilla y maderas.'],
+
+      // 4. RASASI (15)
+      ['rasasi', 'Rasasi', 'Hawas For Her', 61000, 51000, 'Granada, manzana, pomelo, jazmín sambac, iris, praliné, pachulí y vetiver.'],
+      ['rasasi', 'Rasasi', 'Hawas For Him', 64000, 54000, 'Manzana, bergamota, canela, notas acuosas, ciruela, cardamomo y ámbar gris.'],
+      ['rasasi', 'Rasasi', 'Hawas Ice', 77000, 67000, 'Manzana, limón italiano, anís estrellado, ciruela, cardamomo, almizcle y ámbar.'],
+      ['rasasi', 'Rasasi', 'Hawas Fire', 76000, 66000, 'Esclarea, jazmín egipcio, notas marinas, ámbar, notas minerales y ámbar gris.'],
+      ['rasasi', 'Rasasi', 'Hawas Malibu', 73000, 63000, 'Piña, naranja, pomelo, ámbar, lavanda, haba tonka, pachulí y cachemira.'],
+      ['rasasi', 'Rasasi', 'Hawas Tropical', 75000, 65000, 'Agua de coco, hojas de higuera, jengibre, coco, higo, menta, sándalo y haba tonka.'],
+      ['rasasi', 'Rasasi', 'Hawas Kobra', 73000, 63000, 'Jengibre, bergamota, mandarina, canela, té verde, neroli, almizcle y ámbar.'],
+      ['rasasi', 'Rasasi', 'Hawas Verde', 80000, 70000, 'Lima, pachulí, manzana verde, romero y ámbar.'],
+      ['rasasi', 'Rasasi', 'Hawas Black', 66000, 56000, 'Bergamota, piña, pomelo, pachulí, cedro, jazmín, musgo de roble y ámbar.'],
+      ['rasasi', 'Rasasi', 'Hawas Pink', 79000, 69000, 'Canela, nuez moscada, malvavisco, nardos, algodón de azúcar, vainilla y haba tonka.'],
+      ['rasasi', 'Rasasi', 'Hawas Diva', 83000, 73000, 'Frutas rojas, ruibarbo, lichi, rosa, incienso, cedro, vainilla y ámbar gris.'],
+      ['rasasi', 'Rasasi', 'Hawas Eclat', 62000, 52000, 'Lichi, bergamota, pera, pistacho, rosa, incienso, vainilla y notas amaderadas.'],
+      ['rasasi', 'Rasasi', 'Hawas Elixir', 66000, 56000, 'Menta, bergamota, chocolate oscuro, lavanda, benjuí, vainilla y haba tonka.'],
+      ['rasasi', 'Rasasi', 'Hawas Chrome', 83000, 73000, 'Durazno, naranja dulce, frutas amarillas, maracuyá, mango, almizcle, ámbar y vainilla.'],
+      ['rasasi', 'Rasasi', 'Hawas Atlantis', 78000, 68000, 'Bergamota, limón, manzana, canela, notas acuosas, ciruela, cardamomo y ámbar gris.'],
+
+      // 5. FRENCH AVENUE (12)
+      ['frenchavenue', 'French Avenue', 'Liquid Brun', 87000, 77000, 'Canela, azahar, cardamomo, vainilla Bourbon, elemí, praliné y ambroxan.'],
+      ['frenchavenue', 'French Avenue', 'Liquid Brun Limited Edition', 96000, 86000, 'Cardamomo, cítricos, lavanda, madera de gaiac, rosa, vainilla, haba tonka y ámbar.'],
+      ['frenchavenue', 'French Avenue', 'Eclair Affair', 66000, 56000, 'Vaina de vainilla, leche de coco, jazmín, caramelo, acorde goloso y haba tonka.'],
+      ['frenchavenue', 'French Avenue', 'Aether Extrait', 80000, 70000, 'Manzana verde, bergamota, mandarina, cedro, cachemira, almizcle y amberwood.'],
+      ['frenchavenue', 'French Avenue', 'Atlantis Extrait', 86000, 76000, 'Naranja, mandarina, limón, sandía, coco, amberwood, cacao y ámbar gris.'],
+      ['frenchavenue', 'French Avenue', 'Ghost Spectre', 83000, 73000, 'Jengibre, cardamomo, bergamota, pimienta rosa, grosellas negras, vainilla y cedro.'],
+      ['frenchavenue', 'French Avenue', 'Coconut Leche', 68000, 58000, 'Coco cremoso, nardos, vainilla y benjuí.'],
+      ['frenchavenue', 'French Avenue', 'Veneno', 86000, 76000, 'Manzana, humo, canela, tabaco, musgo, vainilla Bourbon y Orcanox.'],
+      ['frenchavenue', 'French Avenue', 'Veneno Bianco', 80000, 70000, 'Neroli, leche, bergamota, flores blancas, tiaré, ylang-ylang, coco y vainilla.'],
+      ['frenchavenue', 'French Avenue', 'Veneno Scarlet', 86000, 76000, 'Fresa, zarzamora, caramelo, frambuesa, canela, cuero, haba tonka y vainilla.'],
+      ['frenchavenue', 'French Avenue', 'Vulcan Feu', 83000, 73000, 'Mango, lima, jengibre, ruibarbo, pimienta rosa, jazmín, praliné, haba tonka y cedro.'],
+      ['frenchavenue', 'French Avenue', 'Vulcan Black Friday', 75000, 65000, 'Azafrán, manzana, canela, cuero, rosa, pachulí, musgo y papiro de Egipto.'],
+
+      // 6. ARMAF (35)
+      ['armaf', 'Armaf', 'CDN Woman', 74000, 64000, 'Naranja, bergamota, durazno, rosa, jazmín, lichi, pachulí y vainilla.'],
+      ['armaf', 'Armaf', 'CDN Intense Man', 73000, 63000, 'Limón, piña, bergamota, grosellas negras, abedul, jazmín, almizcle y ámbar gris.'],
+      ['armaf', 'Armaf', 'CDN Imperiale', 61000, 51000, 'Lichi, bergamota, nuez moscada, rosa turca, vainilla, peonía, incienso y cedro.'],
+      ['armaf', 'Armaf', 'CDN Intense Fuego', 120000, 110000, 'Grosellas negras, ciruela, piña chamuscada, geranio, vainilla, miel y haba tonka.'],
+      ['armaf', 'Armaf', 'CDN Iconic', 77000, 67000, 'Pomelo, limón, menta, pimienta rosa, jengibre, incienso, sándalo y ámbar.'],
+      ['armaf', 'Armaf', 'CDN Sillage', 74000, 64000, 'Bergamota, limón, grosellas negras, violeta, jengibre, rosa, iris y ambroxan.'],
+      ['armaf', 'Armaf', 'CDN Urban Man Elixir', 79000, 69000, 'Bergamota, pimienta rosa, azahar, lavanda, vetiver, azafrán, ambroxan y ámbar.'],
+      ['armaf', 'Armaf', 'CDN Bling', 95000, 85000, 'Cítricos, prisma floral, polvo de estrellas, maderas aterciopeladas y vainilla.'],
+      ['armaf', 'Armaf', 'CDN Untold', 78000, 68000, 'Azafrán, jazmín, amberwood, ámbar gris, resina de abeto y cedro.'],
+      ['armaf', 'Armaf', 'CDN Maleka', 78000, 68000, 'Lichi, bergamota, pimienta rosa, raíz de lirio, praliné, sándalo y ambroxan.'],
+      ['armaf', 'Armaf', 'CDN Oud', 82000, 72000, 'Durazno, pera, maracuyá, piña, ciruela, cachemira, oud camboyano y vainilla.'],
+      ['armaf', 'Armaf', 'CDN Milestone', 61000, 51000, 'Notas marinas, frutas rojas, bergamota, violeta, sándalo, almizcle y ambroxan.'],
+      ['armaf', 'Armaf', 'CDN Precieux IV', 92000, 82000, 'Sal de mar, bergamota, manzana, bayas rojas, crema batida, haba tonka y vainilla.'],
+      ['armaf', 'Armaf', 'CDN Precieux I', 99000, 89000, 'Piña, caramelo, pera, pimienta, musgo de roble, ambroxan, cuero y vainilla.'],
+      ['armaf', 'Armaf', 'Odyssey Mandarin Sky', 66000, 56000, 'Mandarina, naranja, azafrán, salvia, caramelo, haba tonka, ambroxan y vetiver.'],
+      ['armaf', 'Armaf', 'Odyssey Mandarin Sky Elixir', 73000, 63000, 'Mandarina, lavanda, cardamomo, caramelo, haba tonka, pachulí, incienso y vainilla.'],
+      ['armaf', 'Armaf', 'Odyssey Mandarin Sky Vintage', 77000, 67000, 'Mandarina, cítricos, especias, notas florales, notas amaderadas y ámbar.'],
+      ['armaf', 'Armaf', 'Odyssey Limoni', 56000, 46000, 'Limón, naranja dulce, mandarina, azahar, notas marinas, té, almizcle y ámbar.'],
+      ['armaf', 'Armaf', 'Odyssey Spectra', 60000, 50000, 'Canela, manzana, bergamota, lavanda, vainilla, tabaco, haba tonka y ámbar.'],
+      ['armaf', 'Armaf', 'Odyssey Bahamas', 65000, 55000, 'Melón, algas, sal, manzana, pera, notas acuáticas, incienso, cedro y azúcar.'],
+      ['armaf', 'Armaf', 'Odyssey Homme White', 73000, 63000, 'Pimienta rosa, yuzu, pomelo, hojas de violeta, notas marinas, ámbar y madera de gaiac.'],
+      ['armaf', 'Armaf', 'Odyssey Homme Black', 61000, 51000, 'Vainilla, ámbar, notas orientales, especias, iris, cuero y jazmín.'],
+      ['armaf', 'Armaf', 'Odyssey Marshmallow', 66000, 56000, 'Coco, manzana, malvavisco, fresa, durazno, mascarpone, praliné y vainilla.'],
+      ['armaf', 'Armaf', 'Odyssey Candee', 53000, 43000, 'Fresa, frambuesa, durazno, caramelo, jazmín, maracuyá, pachulí y ámbar.'],
+      ['armaf', 'Armaf', 'Odyssey Go Mango', 57000, 47000, 'Pimienta rosa, limón, jengibre, mango, haba tonka, madera de gaiac y vainilla.'],
+      ['armaf', 'Armaf', 'Odyssey Artisto', 70000, 60000, 'Bergamota, frutos secos, salvia, coco, frutas tropicales, canela, vainilla y ámbar.'],
+      ['armaf', 'Armaf', 'Odyssey Mega 60ml', 58000, 48000, 'Naranja, bergamota, jengibre, menta, piña, enebro, salvia, haba tonka y cedro.'],
+      ['armaf', 'Armaf', 'Odyssey Mega 100ml', 64000, 54000, 'Naranja, bergamota, jengibre, menta, piña, enebro, salvia, haba tonka y cedro.'],
+      ['armaf', 'Armaf', 'Odyssey Aqua 100ml', 64000, 54000, 'Naranja, abrótano, pomelo, menta, lavanda, ambroxan, ciprés y pachulí.'],
+      ['armaf', 'Armaf', 'Yum Yum', 70000, 60000, 'Bayas silvestres, cereza, naranja, rosa, flores blancas, vainilla, almizcle y ámbar.'],
+      ['armaf', 'Armaf', 'Island Bliss', 78000, 68000, 'Bayas silvestres, coco, azahar, lactonas, vainilla, haba tonka y almizcle.'],
+      ['armaf', 'Armaf', 'Island Breeze', 80000, 70000, 'Durazno, bayas silvestres, rosa y almizcle blanco.'],
+      ['armaf', 'Armaf', 'Beach Party', 66000, 56000, 'Frutas tropicales, pomelo, agua de mar, guayaba, almizcle y notas amaderadas.'],
+      ['armaf', 'Armaf', 'Infinity Black', 80000, 70000, 'Bergamota, pimienta, limón, flores blancas, rosa, notas amaderadas, tabaco y ámbar.'],
+      ['armaf', 'Armaf', 'Infinity Gold', 75000, 65000, 'Pera, lavanda, rosa, ylang-ylang, jazmín, almizcle, vainilla y musgo.'],
+
+      // 7. LATTAFA (77)
+      ['lattafa', 'Lattafa', 'Khamrah', 57000, 47000, 'Canela, nuez moscada, dátiles, praliné, vainilla, haba tonka, mirra y benjuí.'],
+      ['lattafa', 'Lattafa', 'Khamrah Dukhan', 63000, 53000, 'Especias, mandarina, incienso, ládano, pachulí, tabaco, praliné y haba tonka.'],
+      ['lattafa', 'Lattafa', 'Khamrah Qahwa', 61000, 51000, 'Canela, cardamomo, jengibre, praliné, frutas confitadas, vainilla, café y haba tonka.'],
+      ['lattafa', 'Lattafa', 'Khamrah Waha', 102000, 92000, 'Bergamota, yuzu, enebro, pepino, sal de mar, salvia, vainilla y akigalawood.'],
+      ['lattafa', 'Lattafa', 'The Kingdom', 69000, 59000, 'Lavanda, menta, salvia, vainilla, tabaco, azahar, haba tonka y benjuí.'],
+      ['lattafa', 'Lattafa', 'The Kingdom Fem', 67000, 57000, 'Pera, peonía, casis, praliné, haba tonka, jazmín, almizcle, vainilla y sándalo.'],
+      ['lattafa', 'Lattafa', 'Nebras', 75000, 65000, 'Bayas rojas, mandarina, vainilla, cacao, rosa, azúcar, haba tonka y ámbar.'],
+      ['lattafa', 'Lattafa', 'Nebras Elixir', 66000, 56000, 'Milk Candy, crema batida, caña de azúcar, heliotropo, vainilla y ambroxan.'],
+      ['lattafa', 'Lattafa', 'Fakhar Black', 64000, 54000, 'Manzana, bergamota, jengibre, lavanda, salvia, haba tonka, cedro y vetiver.'],
+      ['lattafa', 'Lattafa', 'Fakhar Rose', 68000, 58000, 'Frutas, granada, nardos, jazmín, gardenia, rosa, vainilla, sándalo y ambroxan.'],
+      ['lattafa', 'Lattafa', 'Fakhar Gold Extrait', 50000, 40000, 'Pomelo, cardamomo, pimienta rosa, nardos, notas solares, ámbar, cuero y ládano.'],
+      ['lattafa', 'Lattafa', 'Fakhar Platinum', 62000, 52000, 'Pimienta rosa, bergamota, cardamomo, guayaba, lavanda, incienso, palo santo y sándalo.'],
+      ['lattafa', 'Lattafa', 'Yara Pink', 68000, 58000, 'Orquídea, heliotropo, mandarina, acorde goloso, frutas tropicales, vainilla y sándalo.'],
+      ['lattafa', 'Lattafa', 'Yara Candy', 52000, 42000, 'Grosellas negras, mandarina verde, Strawberry Fizz Candy, gardenia, vainilla y ámbar.'],
+      ['lattafa', 'Lattafa', 'Yara Moi', 65000, 55000, 'Jazmín, durazno, caramelo, ámbar, pachulí y sándalo.'],
+      ['lattafa', 'Lattafa', 'Yara Tous', 60000, 50000, 'Mango, coco, maracuyá, jazmín, azahar, vainilla, almizcle y cachemira.'],
+      ['lattafa', 'Lattafa', 'Yara Elixir', 67000, 57000, "Strawberry S'mores, grosellas negras, jazmín, caramelo, vainilla y ámbar."],
+      ['lattafa', 'Lattafa', 'Eclaire', 83000, 73000, 'Caramelo, leche, azúcar, miel, flores blancas, vainilla, praliné y almizcle.'],
+      ['lattafa', 'Lattafa', 'Eclaire Bannoft', 57000, 47000, 'Plátano, dulce de leche, crema batida, vainilla, praliné y bizcocho.'],
+      ['lattafa', 'Lattafa', 'Eclaire Pistache', 64000, 54000, 'Crema de pistacho, pistacho, crema batida, cacao, coco, leche y vainilla.'],
+      ['lattafa', 'Lattafa', 'Asad Black', 67000, 57000, 'Pimienta negra, tabaco, piña, pachulí, café, iris, vainilla, ámbar y benjuí.'],
+      ['lattafa', 'Lattafa', 'Asad Zanzibar', 51000, 41000, 'Lavanda, pimienta negra, agua de coco, iris, sal, vainilla e incienso.'],
+      ['lattafa', 'Lattafa', 'Asad Bourbon', 78000, 68000, 'Lavanda, ciruela Mirabel, pimienta rosa, cacao, nuez moscada, vainilla Bourbon y vetiver.'],
+      ['lattafa', 'Lattafa', 'Asad Elixir', 74000, 64000, 'Pomelo, pimienta rosa, azafrán, tabaco, cedro, vainilla, incienso y cachemira.'],
+      ['lattafa', 'Lattafa', 'Her Confession', 74000, 64000, 'Canela, nardos, jazmín, incienso, vainilla, haba tonka y almizcle.'],
+      ['lattafa', 'Lattafa', 'His Confession', 64000, 54000, 'Canela, lavanda, mandarina, iris, benjuí, vainilla, haba tonka, cedro e incienso.'],
+      ['lattafa', 'Lattafa', 'Ishq Al Shuyukh Gold', 57000, 47000, 'Caramelo, azafrán, gamuza, cuero, haba tonka, vainilla, ámbar y almizcle.'],
+      ['lattafa', 'Lattafa', 'Ishq Al Shuyukh Silver', 63000, 53000, 'Limón, bergamota, piña, pimienta negra, vainilla, cedro, amberwood y pachulí.'],
+      ['lattafa', 'Lattafa', 'Qaed Al Fursan', 43000, 33000, 'Piña, azafrán, abeto balsámico, jazmín, ámbar, cedro y madera de oud.'],
+      ['lattafa', 'Lattafa', 'Qaed Al Fursan Unlimited', 43000, 33000, 'Coco, piña, cítricos, ylang-ylang, frangipani, vainilla, sándalo y notas dulces.'],
+      ['lattafa', 'Lattafa', 'Qaed Al Fursan Untamed', 43000, 33000, 'Canela, cardamomo, mandarina, caramelo, lavanda, ámbar, incienso y vetiver.'],
+      ['lattafa', 'Lattafa', "Bade'e Al Oud Amethyst", 56000, 46000, 'Pimienta rosa, bergamota, rosa turca, rosa de Bulgaria, oud, ámbar y vainilla.'],
+      ['lattafa', 'Lattafa', "Bade'e Al Oud Amethyst Fusion", 73000, 63000, 'Amaretto, ron, mandarina, ámbar, caramelo, pachulí, vainilla y sándalo.'],
+      ['lattafa', 'Lattafa', "Bade'e Al Oud Noble Blush", 51000, 41000, 'Rose Milk, merengue, almendra, vainilla, almizcle y sándalo.'],
+      ['lattafa', 'Lattafa', "Bade'e Al Oud Honor & Glory", 62000, 52000, 'Piña, crème brûlée, canela, cúrcuma, pimienta negra, vainilla y cachemira.'],
+      ['lattafa', 'Lattafa', "Bade'e Al Oud Sublime", 56000, 46000, 'Manzana, lichi, rosa, ciruela, jazmín, musgo, vainilla y pachulí.'],
+      ['lattafa', 'Lattafa', "Bade'e Al Oud For Glory", 56000, 46000, 'Azafrán, nuez moscada, lavanda, madera de oud, pachulí y almizcle.'],
+      ['lattafa', 'Lattafa', 'Hayaati', 45000, 35000, 'Manzana, bergamota, canela, notas amaderadas, almizcle y vainilla.'],
+      ['lattafa', 'Lattafa', 'Hayaati Gold Elixir', 48000, 38000, 'Bergamota, pomelo, casis, cuero, azafrán, durazno, vainilla y ámbar.'],
+      ['lattafa', 'Lattafa', 'Khanjar', 86000, 76000, 'Nuez moscada, pimiento morrón, jengibre, violeta, pachulí, cuero, incienso y vetiver.'],
+      ['lattafa', 'Lattafa', 'Victoria', 68000, 58000, 'Lemon Meringue Pie, neroli y vainilla.'],
+      ['lattafa', 'Lattafa', 'Mayar', 60000, 50000, 'Lichi, frambuesa, hojas de violeta, rosa blanca, peonía, jazmín, almizcle y vainilla.'],
+      ['lattafa', 'Lattafa', 'Mayar Cherry Intense', 60000, 50000, 'Fresa, bergamota, mermelada de cereza, cacao, vainilla, ámbar y pachulí.'],
+      ['lattafa', 'Lattafa', 'Mayar Natural Intense', 45000, 35000, 'Mandarina verde, higo, melón, agua de coco, flor de loto, ambroxan y sándalo.'],
+      ['lattafa', 'Lattafa', 'Haya', 59000, 49000, 'Champaña, fresa, mandarina, rosa, gardenia, orquídea de vainilla, ámbar y castaña.'],
+      ['lattafa', 'Lattafa', 'Sakeena', 61000, 51000, 'Maracuyá, mandarina, frambuesa, rosa, sal de mar, tofe, praliné y vainilla.'],
+      ['lattafa', 'Lattafa', 'Emaan', 63000, 53000, 'Azahar, bergamota, grosellas negras, nardos, jazmín, vainilla, cedro y pachulí.'],
+      ['lattafa', 'Lattafa', 'Emeer', 81000, 71000, 'Limón, bergamota, enebro, té blanco, sándalo, cardamomo, incienso y ámbar gris.'],
+      ['lattafa', 'Lattafa', 'Musamam', 80000, 70000, 'Azafrán, lavanda, mandarina italiana, amberwood, cedro, akigalawood e incienso.'],
+      ['lattafa', 'Lattafa', 'Musamam Black Intense', 80000, 70000, 'Lavanda, salvia, nuez moscada, cedro, cocoapulse, haba tonka, arce y pachulí.'],
+      ['lattafa', 'Lattafa', 'Musamam White Intense', 83000, 73000, 'Especias, bergamota, naranja, coco, ylang-ylang, ambroxan, sándalo y benjuí.'],
+      ['lattafa', 'Lattafa', 'Maahir Legacy', 51000, 41000, 'Lima, menta, pomelo, lavanda, piña, enebro, romero, ambroxan y vetiver.'],
+      ['lattafa', 'Lattafa', 'Maahir Honor', 70000, 60000, 'Menta, limón, bergamota, tomillo, romero, jazmín, lavanda, cedro y ámbar.'],
+      ['lattafa', 'Lattafa', 'Atlas', 69000, 59000, 'Notas marinas, sal, limón, davana, iris, ámbar gris, musgo de roble y sándalo.'],
+      ['lattafa', 'Lattafa', 'Vintage Radio', 66000, 56000, 'Lavanda, salvia, bergamota, ciruela, palo santo, pimienta negra, sándalo y oud.'],
+      ['lattafa', 'Lattafa', 'Pisa', 86000, 76000, 'Mandarina, limón, bergamota, cedro, sándalo y ámbar.'],
+      ['lattafa', 'Lattafa', 'Angham', 67000, 57000, 'Jengibre, mandarina, pimienta rosa, lavanda, praliné, cacao, vainilla y ámbar.'],
+      ['lattafa', 'Lattafa', 'Angham Second Song', 65000, 55000, 'Flor de pera, bergamota, peonía, flor de naranjo, praliné, vainilla y haba tonka.'],
+      ['lattafa', 'Lattafa', 'Teriaq', 61000, 51000, 'Caramelo, almendra amarga, pimienta rosa, miel, ruibarbo, cuero, vainilla y vetiver.'],
+      ['lattafa', 'Lattafa', 'Teriaq Intense', 69000, 59000, 'Azafrán, bergamota, licor de ciruela, canela, ámbar, haba tonka y benjuí.'],
+      ['lattafa', 'Lattafa', 'Opulent Dubai', 49000, 39000, 'Mango, pomelo, limón, jengibre, jazmín, cedro, ámbar gris y musgo de roble.'],
+      ['lattafa', 'Lattafa', 'Jasoor', 62000, 52000, 'Manzana, cardamomo, bergamota, tabaco, lavanda, haba tonka, cuero y vetiver.'],
+      ['lattafa', 'Lattafa', 'Atheeri', 99000, 89000, 'Flor de pasionaria, gota de rocío, orquídea, jazmín, vainilla y amberwood.'],
+      ['lattafa', 'Lattafa', 'Art of Universe', 64000, 54000, 'Mandarina, jengibre, bergamota, menta, pera, azahar, almizcle, ámbar y cedro.'],
+      ['lattafa', 'Lattafa', 'King of Arabia', 63000, 53000, 'Frambuesa, bergamota, lirio, cedro, osmanto, cuero, pachulí y vainilla.'],
+      ['lattafa', 'Lattafa', 'Qimmah', 56000, 46000, 'Almendra, café, nardos, jazmín, haba tonka, vainilla, cacao y sándalo.'],
+      ['lattafa', 'Lattafa', 'Dynasty', 62000, 52000, 'Bergamota, jengibre, frambuesa, té rooibos, gamuza, cedro, cachemira y amberwood.'],
+      ['lattafa', 'Lattafa', 'Jouri', 67000, 57000, 'Pitahaya, cereza, naranja, peonía, frangipani, frambuesa, vainilla y haba tonka.'],
+      ['lattafa', 'Lattafa', 'Dalal', 84000, 74000, 'Manzana, mandarina, jazmín, ylang-ylang, naranja, vainilla y musgo de roble.'],
+      ['lattafa', 'Lattafa', 'Afeef', 113000, 103000, 'Durazno, pimienta rosa, bergamota, nardos, jazmín, praliné, sándalo y ámbar.'],
+      ['lattafa', 'Lattafa', 'Harlequin Cream', 75000, 65000, 'Helado, crema batida, gofre, vainilla, almizcle y cacao.'],
+      ['lattafa', 'Lattafa', 'Berry on Top', 75000, 65000, 'Fresa, crema chantilly, mermelada de fresa, azúcar, flores blancas y vainilla.'],
+      ['lattafa', 'Lattafa', 'Choco Overdose', 75000, 65000, 'Fudge de chocolate, cacao, pastelito, vainilla, caramelo y benjuí.'],
+      ['lattafa', 'Lattafa', 'Vanilla Freak', 75000, 65000, 'Pastelito, azúcar glasé, almendra, canela, mantequilla, vainilla y almizcle.'],
+      ['lattafa', 'Lattafa', 'Whipped Pleasure', 75000, 65000, 'Caramelo, pochoclo, caramelo salado, leche, jazmín, haba tonka y benjuí.'],
+      ['lattafa', 'Lattafa', 'Cookie Crave', 75000, 65000, 'Cacao, mantequilla, galleta, leche, azúcar, vainilla, crema batida y sándalo.'],
+      ['lattafa', 'Lattafa', 'Mallow Madness', 75000, 65000, 'Fresa, frambuesa, malvavisco, fresia, crema batida, vainilla y almizcle.'],
+
+      // 8. AFNAN (12)
+      ['afnan', 'Afnan', '9AM', 69000, 59000, 'Limón, mandarina, cardamomo, pimienta rosa, lavanda, manzana verde, cedro y pachulí.'],
+      ['afnan', 'Afnan', '9AM Pour Femme', 70000, 60000, 'Bergamota, pomelo, mandarina, frambuesa, grosellas negras, almizcle y ámbar.'],
+      ['afnan', 'Afnan', '9PM Pour Femme', 70000, 60000, 'Frambuesa, violeta, manzana, rosa, iris, peonía, pino, ciprés y ámbar.'],
+      ['afnan', 'Afnan', '9AM Dive', 62000, 52000, 'Limón, menta, grosellas negras, pimienta rosa, manzana, cedro, incienso y jengibre.'],
+      ['afnan', 'Afnan', '9PM', 69000, 59000, 'Manzana, canela, lavanda silvestre, bergamota, azahar, vainilla, haba tonka y ámbar.'],
+      ['afnan', 'Afnan', '9PM Rebel', 91000, 81000, 'Piña, manzana Granny Smith, mandarina, musgo de roble, vainilla, cedro y caramelo.'],
+      ['afnan', 'Afnan', '9PM Elixir', 79000, 69000, 'Cardamomo, nuez moscada, elemí, cuero, lavanda, vainilla, pachulí y ládano.'],
+      ['afnan', 'Afnan', '9PM Night Out', 95000, 85000, 'Pitahaya, lavanda, coñac, manzana, caramelo, gamuza, haba tonka y akigalawood.'],
+      ['afnan', 'Afnan', 'Turathi Blue', 65000, 55000, 'Cítricos, ámbar, notas amaderadas, almizcle, especias y pachulí.'],
+      ['afnan', 'Afnan', 'Turathi Electric', 73000, 63000, 'Pera, mandarina, pomelo rosado, azahar, manzana, cedro, ámbar y vainilla.'],
+      ['afnan', 'Afnan', 'Supremacy Silver', 64000, 54000, 'Piña, grosellas negras, bergamota, manzana, abedul, pachulí, ámbar gris y vainilla.'],
+      ['afnan', 'Afnan', "Supremacy Collector's Edition", 114000, 104000, 'Piña, bergamota, flores blancas, manzana, azahar, abedul, ámbar gris y musgo.'],
+
+      // 9. OTRAS ÁRABES (35)
+      ['otrasarabes', 'Al Wataniah', 'Sabah Al Ward', 58000, 48000, 'Mandarina, pimienta rosa, azahar, cacao, jazmín sambac, pachulí y vainilla.'],
+      ['otrasarabes', 'Asdaaf', 'Raneen', 65000, 55000, 'Pitahaya, pera, mandarina, azahar, jazmín, fresia, vainilla y haba tonka.'],
+      ['otrasarabes', 'Maison Alhambra', 'Salvo EDP', 65000, 55000, 'Bergamota, lavanda, pimienta de Sichuan, anís estrellado, ambroxan y vainilla.'],
+      ['otrasarabes', 'Maison Alhambra', 'Salvo Elixir', 50000, 40000, 'Pimienta negra, tabaco, piña, pachulí, iris, café, ámbar, vainilla y benjuí.'],
+      ['otrasarabes', 'Maison Alhambra', 'Philos Pura', 56000, 46000, 'Naranja, bergamota, limón, frutas, vainilla de Madagascar, almizcle blanco y ámbar.'],
+      ['otrasarabes', 'Maison Alhambra', "L'Intrude", 56000, 46000, 'Pera, bergamota, nardos, azahar, jazmín sambac, pachulí, ambroxan y vainilla.'],
+      ['otrasarabes', 'Maison Alhambra', 'Jean Lowe Immortal', 63000, 53000, 'Jengibre, pomelo, bergamota, romero, notas acuáticas, ambroxan y ámbar.'],
+      ['otrasarabes', 'Maison Alhambra', 'Jean Lowe Vibe', 65000, 55000, 'Menta, cidra, naranja, limón, grosella negra, albaricoque, higo y dátiles.'],
+      ['otrasarabes', 'Maison Alhambra', 'Papillon D', 69000, 59000, 'Frutas exóticas, mandarina, azahar, peonía, vainilla, haba tonka y ambroxan.'],
+      ['otrasarabes', 'Maison Alhambra', 'Sceptre Malachite', 56000, 46000, 'Mandarina verde, bergamota, grosellas negras, lavanda, pimienta rosa, ámbar y vetiver.'],
+      ['otrasarabes', 'Maison Alhambra', 'Summit Elixir', 59000, 49000, 'Notas especiadas, pomelo, bergamota, lavanda, almizcle, ámbar, cedro y vetiver.'],
+      ['otrasarabes', 'Mykonos', 'Reflection', 61000, 51000, 'Pomelo, mandarina, bergamota, durazno, jazmín, rosa, cedro, sándalo y vainilla.'],
+      ['otrasarabes', 'Mykonos', 'Reflection 100ml', 74000, 64000, 'Pomelo, mandarina, bergamota, durazno, jazmín, rosa, cedro, sándalo y vainilla.'],
+      ['otrasarabes', 'Mykonos', 'Dreamscape', 61000, 51000, 'Mango, limón italiano, ruibarbo, jengibre, pimienta rosa, praliné y haba tonka.'],
+      ['otrasarabes', 'Mykonos', 'Dreamscape 100ml', 74000, 64000, 'Mango, limón italiano, ruibarbo, jengibre, pimienta rosa, praliné y haba tonka.'],
+      ['otrasarabes', 'Mykonos', 'California Blue', 61000, 51000, 'Lavanda, pomelo, pera, sal, notas marinas, ruibarbo, caramelo y musgo.'],
+      ['otrasarabes', 'Mykonos', 'Glitch 100ml', 74000, 64000, 'Notas ozónicas, chile rojo, jengibre, cedro, ylang-ylang, almizcle y vainilla.'],
+      ['otrasarabes', 'Jo Milano', 'Game of Spades All In', 120000, 110000, 'Naranja roja, mandarina, lima, limón, flor de tiaré, sándalo y musk.'],
+      ['otrasarabes', 'Jo Milano', 'Game of Spades Full House', 120000, 110000, 'Citrón, bergamota, jengibre, neroli, canela, té negro chino y ambroxán.'],
+      ['otrasarabes', 'Jo Milano', 'Game of Spades Royale', 120000, 110000, 'Cacao, avellana, jazmín sambac, cedro, caramelo, ambroxán y musgo.'],
+      ['otrasarabes', 'Jo Milano', 'Game of Spades Wild Card', 120000, 110000, 'Flores, bergamota, cilantro, ambroxán, vainilla, manzana, haba tonka y ámbar gris.'],
+      ['otrasarabes', 'Zimaya', 'Tiramisu Caramel', 59000, 49000, 'Caramelo, miel, cumarina, notas amaderadas, vainilla, whisky y almizcle.'],
+      ['otrasarabes', 'Zimaya', 'Tiramisu Coco', 59000, 49000, 'Amaretto, café, helado, bizcocho, vainilla, azúcar moreno y ámbar.'],
+      ['otrasarabes', 'Paris Corner', 'Marshmallow Blush', 75000, 65000, 'Fresa, frambuesa, limón, ambroxan, azahar, malvavisco y almizcle.'],
+      ['otrasarabes', 'Rayhaan', 'Tropical Vibe', 67000, 57000, 'Mango, piña, bergamota, coco, ámbar, almizcle, sándalo y vetiver.'],
+      ['otrasarabes', 'Rayhaan', 'Jungle Vibe', 68000, 58000, 'Higo, pomelo, bergamota, notas verdes, notas acuáticas y sándalo.'],
+      ['otrasarabes', 'Rayhaan', 'Elixir', 72000, 62000, 'Menta, bergamota, lavanda, benjuí, vainilla y haba tonka.'],
+      ['otrasarabes', 'Rayhaan', 'Lion', 63000, 53000, 'Lavanda, pera, menta, bergamota, canela, esclarea, vainilla, ámbar y cedro.'],
+      ['otrasarabes', 'Rayhaan', 'Pacific Aura', 69000, 59000, 'Mandarina, menta, cidra, bergamota, grosellas negras, albahaca, higo y ambroxan.'],
+      ['otrasarabes', 'Rayhaan', 'Aquatica', 69000, 59000, 'Lima, leche de coco, bergamota, caña de azúcar, hibisco, ron y haba tonka.'],
+      ['otrasarabes', 'Rayhaan', 'Obsidian', 75000, 65000, 'Iris, cítricos, cuero, sándalo, almizcle ambreta, cedro y madera de oud.'],
+      ['otrasarabes', 'Rayhaan', 'Terra', 70000, 60000, 'Cardamomo, elemí, pimienta de Sichuan, pachulí, azafrán, incienso, vainilla y oud.'],
+      ['otrasarabes', 'Rayhaan', 'Valhalla', 63000, 53000, 'Frambuesa, coñac, licor, haba tonka, rosa de Bulgaria, sándalo y praliné.'],
+      ['otrasarabes', 'Rayhaan', 'Italia', 89000, 79000, 'Lavanda, limón, bergamota, miel, canela, cachemira, vainilla, tabaco y haba tonka.'],
+      ['otrasarabes', 'Maison Asrar', 'Muharib', 102000, 92000, 'Lavanda, limón, bergamota, miel, canela, cachemira, tabaco y haba tonka.'],
+
+      // 10. DISEÑADOR & ARIANA GRANDE (40)
+      ['disenador', 'AMG', 'AMG Red Thrill', 107000, 97000, 'Cardamomo, iris y vainilla.'],
+      ['disenador', 'Montale', 'Arabians Tonka', 225000, 215000, 'Azafrán, bergamota, madera de oud, rosa de Bulgaria, haba tonka y caña de azúcar.'],
+      ['disenador', 'Paco Rabanne', 'Invictus', 130000, 120000, 'Notas marinas, pomelo, mandarina, hoja de laurel, ámbar gris y madera de gaiac.'],
+      ['disenador', 'Paco Rabanne', 'One Million', 128000, 118000, 'Mandarina roja, pomelo, menta, canela, rosa, ámbar, cuero y pachulí.'],
+      ['disenador', 'Carolina Herrera', '212 VIP Rosé', 160000, 150000, 'Champagne Rosé, pimienta rosa, flor del duraznero, rosa y almizcle blanco.'],
+      ['disenador', 'Carolina Herrera', '212 VIP Men', 135000, 125000, 'Maracuyá, lima, pimienta, jengibre, vodka, ginebra, menta, ámbar y cuero.'],
+      ['disenador', 'Dumont', 'Nitro Red', 82000, 72000, 'Lavanda, manzana, bergamota, sandía, cedro, ámbar, sándalo y pachulí.'],
+      ['disenador', 'Dumont', 'Nitro White', 70000, 60000, 'Bayas de enebro, iris, ciprés, mirra, pachulí, miel, vainilla y cuero.'],
+      ['disenador', 'Valentino', 'Born in Roma', 270000, 260000, 'Vainilla, lavanda y vetiver.'],
+      ['disenador', 'Valentino', 'Born in Roma Purple Melancholia', 220000, 210000, 'Cardamomo, coco, lavanda y amberwood.'],
+      ['disenador', 'Emporio Armani', 'Stronger With You Intensely', 180000, 170000, 'Pimienta rosa, enebro, tofe, canela, lavanda, vainilla, ámbar y haba tonka.'],
+      ['disenador', 'Dior', 'Sauvage', 270000, 260000, 'Bergamota de Calabria, pimienta de Sichuan, lavanda, ambroxan y cedro.'],
+      ['disenador', 'Xerjoff', 'Erba Pura (OFERTA)', 290000, 290000, 'Naranja siciliana, bergamota, frutas, almizcle blanco, vainilla y ámbar.'],
+      ['disenador', 'Carolina Herrera', 'Good Girl', 175000, 165000, 'Almendra, café, nardos, jazmín sambac, haba tonka, cacao, vainilla y praliné.'],
+      ['disenador', 'Carolina Herrera', 'Good Girl Blush', 187000, 177000, 'Bergamota, almendra amarga, peonía, ylang-ylang, vainilla y cumarina.'],
+      ['disenador', 'Dior', 'Miss Dior EDP 100ml', 220000, 210000, 'Iris, peonía, muguete, rosa, durazno, vainilla, almizcle y haba tonka.'],
+      ['disenador', 'Dior', 'Miss Dior EDP 150ml', 250000, 240000, 'Iris, peonía, muguete, rosa, durazno, vainilla, almizcle y haba tonka.'],
+      ['disenador', 'Yves Saint Laurent', 'YSL Libre', 213000, 203000, 'Lavanda, mandarina, grosellas negras, azahar, jazmín, vainilla y ámbar gris.'],
+      ['disenador', 'Carolina Herrera', 'Bad Boy Le Parfum', 160000, 150000, 'Pimienta blanca, bergamota, pimienta rosa, cedro, esclarea, haba tonka y cacao.'],
+      ['disenador', 'Sabrina Carpenter', 'Sweet Tooth', 72000, 62000, 'Malvavisco, chocolate, jengibre confitado, vainilla, leche de coco y crema batida.'],
+      ['disenador', 'Sabrina Carpenter', 'Sweet Tooth Caramel Dream', 72000, 62000, 'Azúcar, leche de almendras, chocolate oscuro, vainilla, caramelo y sándalo.'],
+      ['disenador', 'Sabrina Carpenter', 'Sweet Tooth Cherry Baby', 72000, 62000, 'Cereza, azúcar moreno, ciruela, chocolate oscuro, orquídea de vainilla y almizcle.'],
+      ['disenador', 'Jean Paul Gaultier', 'Le Beau', 173000, 163000, 'Bergamota, coco y haba tonka.'],
+      ['disenador', 'Jean Paul Gaultier', 'Le Beau Paradise Garden', 171000, 161000, 'Notas verdes y acuosas, menta, jengibre, coco, higo, sal, haba tonka y sándalo.'],
+      ['disenador', 'Jean Paul Gaultier', 'Le Beau Le Parfum', 188000, 178000, 'Piña, iris, jengibre, ciprés, coco, maderas, haba tonka, sándalo y ámbar.'],
+      ['disenador', 'Jean Paul Gaultier', 'Le Male Le Parfum', 180000, 170000, 'Cardamomo, lavanda, iris, vainilla y notas orientales amaderadas.'],
+      ['disenador', 'Jean Paul Gaultier', 'Le Male Elixir', 193000, 183000, 'Lavanda, menta, vainilla, benjuí, miel, haba tonka y tabaco.'],
+      ['disenador', 'Azzaro', 'Wanted', 96000, 86000, 'Limón, jengibre, lavanda, menta, manzana, cardamomo, haba tonka y vetiver.'],
+      ['disenador', 'Azzaro', 'The Most Wanted Intense', 128000, 118000, 'Bergamota, lavanda, licor y musgo.'],
+      ['disenador', 'Azzaro', 'The Most Wanted', 128000, 118000, 'Cardamomo, tofe y amberwood.'],
+      ['disenador', 'Yves Saint Laurent', 'YSL MYSLF Le Parfum', 245000, 235000, 'Bergamota de Calabria, flor del naranjo tunesino, ambrofix y pachulí.'],
+      ['disenador', 'Riiffs', 'Momento', 77000, 67000, 'Azúcar, azafrán, mandarina, haba tonka, rosa de Damasco, oud y caramelo.'],
+      ['disenador', 'Xerjoff', '1861 Naxos', 330000, 300000, 'Lavanda, bergamota, miel, canela, cachemira, hojas de tabaco, vainilla y haba tonka.'],
+      ['disenador', 'Xerjoff', 'Erba Gold', 345000, 335000, 'Naranja brasileña, limón siciliano, melón, pera, manzana verde, vainilla y ámbar.'],
+      ['disenador', 'Xerjoff', 'Torino 21', 345000, 335000, 'Limón, menta, albahaca, tomillo, grosellas negras, lavanda, romero y verbena.'],
+      ['disenador', 'Giorgio Armani', 'Acqua di Giò', 118000, 108000, 'Lima, limón, bergamota, notas marinas, jazmín, romero, cedro y almizcle blanco.'],
+      ['disenador', 'Diseñador', 'La Bomba Diseñador', 198000, 188000, 'Pitahaya, frangipani, vainilla y pachulí.'],
+      ['disenador', 'Jean Paul Gaultier', 'Scandal', 156000, 146000, 'Mandarina, esclarea, caramelo, haba tonka y vetiver.'],
+      ['disenador', 'Ariana Grande', 'Cloud Pink', 112000, 102000, 'Pitahaya, bayas silvestres, piña, agua de coco, orquídea de vainilla y praliné.'],
+      ['disenador', 'Ariana Grande', 'Kit Cloud', 134000, 124000, 'Lavanda, pera, bergamota, crema batida, coco, praliné y orquídea de vainilla.'],
+
+      // 11. KITS DE REGALO (28)
+      ['kits', 'Afnan', 'Kit 9PM Pour Femme', 99000, 89000, 'Perfume 100ml + Loción corporal + Gel de ducha + Body splash.'],
+      ['kits', 'Afnan', 'Kit 9AM Pour Femme', 82000, 72000, 'Perfume 100ml + Loción corporal + Gel de ducha + Body splash.'],
+      ['kits', 'Afnan', 'Kit 9AM Dive', 77000, 67000, 'Perfume 100ml + Loción corporal + Gel de ducha.'],
+      ['kits', 'Afnan', 'Kit 9PM', 77000, 67000, 'Perfume 100ml + Loción corporal + Gel de ducha.'],
+      ['kits', 'Afnan', 'Kit 9PM Rebel', 100000, 90000, 'Perfume 100ml + Desodorante + Gel de ducha.'],
+      ['kits', 'Lattafa', 'My Yara Collection 25ml', 91000, 81000, 'Yara Pink, Candy, Tous y Moi (4x25ml).'],
+      ['kits', 'Lattafa', 'My Yara Collection 5ml', 53000, 43000, 'Yara Pink, Candy, Tous y Moi (4x5ml).'],
+      ['kits', 'Lattafa', 'Yara Moi Collection', 72000, 62000, 'Perfume 100ml + Desodorante + Perfume para el pelo.'],
+      ['kits', 'Lattafa', 'Kit Yara Candy + Yara Pink', 75000, 65000, 'Yara Candy 100ml + Yara Pink 100ml.'],
+      ['kits', 'Bharara', 'Kit Bharara King x4', 112000, 102000, 'EDP 100ml + After Shave 100ml + Crema 150ml + Gel de ducha 150ml.'],
+      ['kits', 'Emporio Armani', 'Stronger With You Travels Collection', 200000, 190000, 'Perfume EDP 100ml + Perfumero 15ml.'],
+      ['kits', 'Lattafa', 'Kit Asad 25ml', 75000, 65000, 'Asad, Elixir, Zanzibar y Bourbon (4x25ml).'],
+      ['kits', 'Lattafa', 'Kit Asad 5ml', 55000, 45000, 'Asad, Elixir, Zanzibar y Bourbon (4x5ml).'],
+      ['kits', 'Lattafa', 'Kit Asad Zanzibar + Asad', 72000, 62000, 'Asad 100ml + Asad Zanzibar 100ml.'],
+      ['kits', 'Lattafa', "Bade'e Collection 25ml", 69000, 59000, 'Sublime, Noble Blush, Honor & Glory y Oud For Glory (4x25ml).'],
+      ['kits', 'Lattafa', "Bade'e Collection 5ml", 43000, 33000, 'Sublime, Noble Blush, Honor & Glory, Oud For Glory y Amethyst (5x5ml).'],
+      ['kits', 'Lattafa', "Kit Bade'e Sublime", 74000, 64000, 'EDP 100ml + Perfumero 12ml + Perfume para el pelo.'],
+      ['kits', 'Lattafa', "Kit Bade'e Noble Blush", 85000, 75000, 'EDP 100ml + Perfumero 12ml + Perfume para el pelo.'],
+      ['kits', 'Lattafa', 'Kit Her Confession', 91000, 81000, 'EDP 100ml + Perfumero + Perfume para el pelo.'],
+      ['kits', 'Lattafa', 'Kit His Confession', 100000, 90000, 'EDP 100ml + Perfumero + Gel de ducha.'],
+      ['kits', 'Armaf', 'CDN Intense Man x3', 102000, 92000, '3 x CDN Intense Man 30ml.'],
+      ['kits', 'Armaf', 'Mini CDN Collection 10ml', 79000, 69000, '10 Perfumes Armaf CDN de 10ml.'],
+      ['kits', 'Armaf', 'CDN Collection 5ml', 102000, 92000, '10 Perfumes Armaf CDN de 5ml.'],
+      ['kits', 'Lattafa', 'Kit Lattafa Pride', 72000, 62000, '5 x 20ml EDP (Consultar modelos disponibles).'],
+      ['kits', 'Lattafa', 'Kit The Kingdom Masculino', 70000, 60000, 'Perfume 100ml + Perfume 12ml + Gel de ducha.'],
+      ['kits', 'Lattafa', 'Kit Khamrah', 77000, 67000, 'Perfume 100ml + Perfume para el pelo + Perfume 12ml.'],
+      ['kits', 'Lattafa', 'Kit Fakhar Black', 68000, 58000, 'Perfume 100ml + Perfume 12ml + Gel de ducha.'],
+      ['kits', 'Lattafa', 'Kit Pisa', 82000, 72000, 'Perfume 100ml + Perfume 20ml + Desodorante + Perfumero.'],
+
+      // 12. SPRAYS, DESODORANTES Y VICTORIA'S SECRET (14)
+      ['sprays', 'All Over Spray', 'All Over Spray Ameerat Al Arab', 32000, 25000, 'Cítricos, bergamota, almizcle blanco, sábila, jazmín y oud.'],
+      ['sprays', 'All Over Spray', 'All Over Spray Ameerat Al Arab Prive Rose', 32000, 25000, 'Fresa, uvas, naranja, rosa, jazmín, haba tonka y sándalo.'],
+      ['sprays', 'All Over Spray', 'All Over Spray Fakhar Rose', 32000, 25000, 'Frutas, granada, nardos, jazmín, rosa, vainilla y sándalo.'],
+      ['sprays', 'All Over Spray', 'All Over Spray Mayar Natural Intense', 32000, 25000, 'Mandarina verde, higo, melón, agua de coco, flor de loto y vainilla.'],
+      ['sprays', 'Desodorante Árabe', 'Desodorante Árabe Ansaam Gold', 10000, 8000, 'Desodorante perfumado árabe.'],
+      ['sprays', 'Desodorante Árabe', 'Desodorante Árabe Ameerat Al Arab', 10000, 8000, 'Desodorante perfumado árabe.'],
+      ['sprays', 'Desodorante Árabe', 'Desodorante Árabe Fakhar Extrait', 10000, 8000, 'Desodorante perfumado árabe.'],
+      ['sprays', 'Desodorante Árabe', 'Desodorante Árabe Ana Abiyedh Liam White', 10000, 8000, 'Desodorante perfumado árabe.'],
+      ['sprays', 'Desodorante Árabe', 'Desodorante Árabe Ana Abiyedh Rouge', 10000, 8000, 'Desodorante perfumado árabe.'],
+      ['sprays', 'Body Splash Árabe', 'Body Splash Árabe Yara Tous', 24000, 20000, 'Body Splash perfumado Lattafa Yara Tous.'],
+      ['sprays', "Victoria's Secret", "Victoria's Secret Colonias", 35000, 28000, 'Consultar disponibilidad de aromas.'],
+      ['sprays', "Victoria's Secret", "Victoria's Secret Body Splash", 32000, 25000, 'Consultar disponibilidad de aromas.'],
+      ['sprays', "Victoria's Secret", "Victoria's Secret Cremas Corporales", 28000, 25000, 'Consultar disponibilidad de aromas.'],
+      ['sprays', "Victoria's Secret", "Victoria's Secret Kits Crema + Perfume", 53000, 45000, 'Consultar disponibilidad de aromas.'],
+
+      // 13. SKINCARE COREANO & CAPILAR (46)
+      ['skincare', 'Medicube', 'PDRN Pink Peptide Serum', 62000, 52000, 'Skincare coreano Medicube.'],
+      ['skincare', 'Medicube', 'PDRN Pink Peptide Eye Cream', 59000, 49500, 'Contorno de ojos Medicube.'],
+      ['skincare', 'Medicube', 'PDRN Pink Hyaluronic Moisturizing Cream', 71000, 59400, 'Crema hidratante ácido hialurónico.'],
+      ['skincare', 'Medicube', 'PDRN Pink Collagen Capsule Cream', 59000, 49500, 'Crema cápsulas colágeno PDRN.'],
+      ['skincare', 'Medicube', 'PDRN Pink Collagen Gel Mask', 75000, 65000, 'Mascarilla gel colágeno PDRN.'],
+      ['skincare', 'Medicube', 'PDRN Pink Collagen Toning Gel Toner Pad', 75000, 65000, 'Pads tónicos colágeno PDRN.'],
+      ['skincare', 'Medicube', 'PDRN Pink Collagen Exosome Shot 7500', 21000, 15000, 'Tratamiento Exosome Shot 7500.'],
+      ['skincare', 'Medicube', 'PDRN Pink Collagen Glow Jelly Mist Serum', 64000, 54000, 'Bruma serum glow colágeno.'],
+      ['skincare', 'Medicube', 'Deep Vita C Pad', 64000, 54000, 'Pads Vitamina C iluminadores.'],
+      ['skincare', 'Medicube', 'Deep Vita A Retinol Serum', 59000, 49500, 'Serum Retinol anti-edad.'],
+      ['skincare', 'Medicube', 'Deep Vita C Capsule Cream', 64000, 54000, 'Crema cápsulas Vitamina C.'],
+      ['skincare', 'Medicube', 'Deep Vita C Daily Quick Mask', 59000, 49500, 'Mascarilla rápida diaria Vitamina C.'],
+      ['skincare', 'Medicube', 'Zero Pore Serum 2.0', 64000, 54000, 'Serum minimizador de poros.'],
+      ['skincare', 'Medicube', 'One Day Zero Pore Serum', 75000, 65000, 'Serum intensivo poros One Day.'],
+      ['skincare', 'Medicube', 'Zero Pore One Day Cream', 59000, 49500, 'Crema poros One Day.'],
+      ['skincare', 'Medicube', 'One Day Exosome Shot 7500', 59000, 49500, 'Tratamiento intensivo Exosome Shot 7500.'],
+      ['skincare', 'Medicube', 'TXA Niacinamide 15 Serum', 59000, 49500, 'Serum manchas TXA + Niacinamida 15%.'],
+      ['skincare', 'Medicube', 'TXA Niacinamide Capsule Cream', 59000, 49500, 'Crema cápsulas TXA + Niacinamida.'],
+      ['skincare', 'Medicube', 'Hyaluronic Multi Peptide Serum', 64000, 54000, 'Serum multi-péptidos e hidratación.'],
+      ['skincare', 'Medicube', 'Hyaluronic Moisturizing Capsule Cream', 59000, 49500, 'Crema hidratante cápsulas hialurónico.'],
+      ['skincare', 'Medicube', 'Kojic Acid Turmeric Niacinamide Serum', 70000, 60000, 'Serum ácido kójico, cúrcuma y niacinamida.'],
+      ['skincare', 'Medicube', 'Kojic Acid Turmeric Vita Capsule Cream', 59000, 49500, 'Crema cápsulas kójico y cúrcuma.'],
+      ['skincare', 'Medicube', 'Kojic Acid Turmeric Night Wrapping Mask', 53000, 48000, 'Mascarilla nocturna kójico y cúrcuma.'],
+      ['skincare', 'Medicube', 'Kojic Acid Turmeric Resurfacing Toner', 53000, 48000, 'Tónico renovador kójico y cúrcuma.'],
+      ['skincare', 'Medicube', 'Kojic Acid Turmeric Pad', 70000, 60500, 'Pads iluminadores kójico y cúrcuma.'],
+      ['skincare', 'Medicube', 'Soymint Scaling Shampoo', 53000, 45000, 'Shampoo exfoliante cuero cabelludo.'],
+      ['skincare', 'Medicube', 'Hypochlorous Acid Peel Shot', 53000, 45000, 'Tratamiento ácido hipocloroso.'],
+      ['skincare', 'Medicube', 'Hypochlorous Acid Daily Facial Spray', 64000, 54000, 'Spray facial diario calmante.'],
+      ['skincare', 'Medicube', 'Deep Vita C Capsule Serum', 53000, 45000, 'Serum cápsulas Vitamina C.'],
+      ['skincare', 'Medicube', 'Collagen Jelly Cream 50ml', 59000, 49500, 'Crema gel colágeno 50ml.'],
+      ['skincare', 'Medicube', 'Collagen Jelly Cream 100ml', 59000, 49500, 'Crema gel colágeno 100ml.'],
+      ['skincare', 'Medicube', 'Deep Lifting Peptide Eye Cream', 70000, 60500, 'Crema contorno ojos efecto lifting.'],
+      ['skincare', 'Madagascar Centella', 'Tone Brightening Tone-Up Sunscreen', 64000, 54000, 'Protector solar iluminador coreano.'],
+      ['skincare', 'Madagascar Centella', 'Tea-Trica Soothing Sun Milk', 59000, 49500, 'Leche solar calmante Tea-Trica.'],
+      ['skincare', 'Madagascar Centella', 'Probio-Cica Glow Sun Ampoule', 53000, 45000, 'Ampolla solar glow Probio-Cica.'],
+      ['skincare', 'Madagascar Centella', 'Tone Brightening Cleansing Gel Foam', 48000, 40500, 'Gel limpiador facial iluminador.'],
+      ['skincare', 'Celimax', 'Retinol Shot Tightening Serum', 55000, 45000, 'Serum tensor con retinol.'],
+      ['skincare', 'Celimax', 'Retinal Shot Tightening Booster', 59000, 49500, 'Booster tensor con retinal.'],
+      ['skincare', 'Karseell', 'Karseell Shampoo', 24000, 24000, 'Cuidado capilar Karseell.'],
+      ['skincare', 'Karseell', 'Karseell Acondicionador', 16000, 16000, 'Cuidado capilar Karseell.'],
+      ['skincare', 'Karseell', 'Karseell Crema Colágeno', 21000, 21000, 'Máscara capilar de colágeno Karseell.'],
+      ['skincare', 'Karseell', 'Karseell Crema Matizadora', 21000, 21000, 'Crema capilar matizadora Karseell.'],
+      ['skincare', 'Karseell', 'Karseell Aceite', 15000, 15000, 'Aceite capilar reparador Karseell.'],
+      ['skincare', 'Ecolchi', 'Ecolchi Shampoo', 27000, 27000, 'Cuidado capilar Ecolchi.'],
+      ['skincare', 'Ecolchi', 'Ecolchi Acondicionador', 27000, 27000, 'Cuidado capilar Ecolchi.'],
+      ['skincare', 'Ecolchi', 'Ecolchi Moisture Collagen Shea Butter Shampoo', 32000, 32000, 'Shampoo colágeno y manteca de karité.']
+    ];
+
+    // Mapeo a objetos estructurados
+    const PRODUCTS = RAW_PRODUCTS.map((row, idx) => ({
+      id: `jrp-${idx + 1}`,
+      category: row[0],
+      brand: row[1],
+      name: row[2],
+      baseMenor: row[3],
+      baseMayor: row[4],
+      notes: row[5]
+    }));
+
+    /* =========================================================================
+       3. ESTADO DE LA APLICACIÓN
+       ========================================================================= */
+    const STORAGE_KEY_CONFIG = 'jr_perfumeria_config_v1';
+    const STORAGE_KEY_CART = 'jr_perfumeria_cart_v1';
+
+    let storeConfig = { ...(window.JR_BAKED_CONFIG || { markupType: 'percent', markupUnidad: 30, markupMayor: 25, whatsappNumber: '5493885856562' }) };
+    let tempAdminMarkupType = storeConfig.markupType;
+
+    let cart = [];
+    let priceMode = 'unidad';      // 'unidad' | 'mayor'
+    let activeCategory = 'all';
+    let searchQuery = '';
+    let budgetFilter = 'all';      // 'all' | 'upTo50' | 'upTo100' | 'over100'
+    let sortOrder = 'recommended'; // 'recommended' | 'price-asc' | 'price-desc' | 'az'
+    let viewMode = 'grid';         // 'grid' | 'list'
+
+    /* =========================================================================
+       4. INICIALIZACIÓN
+       ========================================================================= */
+    window.addEventListener('DOMContentLoaded', () => {
+      loadPersistedState();
+      syncWhatsAppLinks();
+      renderCategories();
+      updatePriceModeUI();
+      renderProducts();
+      updateCartUI();
+      cleanExternalHostBadges();
+    });
+
+    function loadPersistedState() {
+      try {
+        const savedCfg = localStorage.getItem(STORAGE_KEY_CONFIG);
+        if (savedCfg) {
+          const parsed = JSON.parse(savedCfg);
+          storeConfig = { ...storeConfig, ...parsed };
+        }
+        const savedCart = localStorage.getItem(STORAGE_KEY_CART);
+        if (savedCart) {
+          const parsedCart = JSON.parse(savedCart);
+          if (Array.isArray(parsedCart)) cart = parsedCart;
+        }
+      } catch (err) {
+        console.warn('No se pudo leer almacenamiento local:', err);
+      }
+    }
+
+    function saveCart() {
+      try {
+        localStorage.setItem(STORAGE_KEY_CART, JSON.stringify(cart));
+      } catch (err) {}
+    }
+
+    function cleanExternalHostBadges() {
+      const strip = () => {
+        document.querySelectorAll('a[href*="netlify.com"], a[href*="tiiny.host"], [class*="netlify-badge"]').forEach(el => el.remove());
+      };
+      strip();
+      setInterval(strip, 1500);
+    }
+
+    /* =========================================================================
+       5. MOTOR DE CÁLCULO DE PRECIOS (+30% UNIDAD / +25% MAYOR O MONTO FIJO)
+       ========================================================================= */
+    function roundTo100(val) {
+      return Math.round(val / 100) * 100;
+    }
+
+    function getUnitPrice(prod) {
+      if (storeConfig.markupType === 'fixed') {
+        return roundTo100(prod.baseMenor + Number(storeConfig.markupUnidad || 0));
+      }
+      const factor = 1 + (Number(storeConfig.markupUnidad || 0) / 100);
+      return roundTo100(prod.baseMenor * factor);
+    }
+
+    function getWholesalePrice(prod) {
+      if (storeConfig.markupType === 'fixed') {
+        return roundTo100(prod.baseMayor + Number(storeConfig.markupMayor || 0));
+      }
+      const factor = 1 + (Number(storeConfig.markupMayor || 0) / 100);
+      return roundTo100(prod.baseMayor * factor);
+    }
+
+    function getActivePrice(prod) {
+      return priceMode === 'mayor' ? getWholesalePrice(prod) : getUnitPrice(prod);
+    }
+
+    function formatARS(amount) {
+      return `$${Number(amount).toLocaleString('es-AR')}`;
+    }
+
+    /* =========================================================================
+       6. ICONOS VECTORIALES DE LUJO POR CATEGORÍA (SVG MINIMALISTA)
+       ========================================================================= */
+    function getProductIconSVG(prod) {
+      const cat = prod.category;
+      const brand = prod.brand.toLowerCase();
+
+      // Vapers
+      if (cat === 'vapers') {
+        return `
+          <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-purple-500/20 via-jr-gold/15 to-jr-dark border border-purple-400/35 flex items-center justify-center shrink-0">
+            <svg viewBox="0 0 48 48" class="w-7 h-7" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="19" y="6" width="10" height="6" rx="2" fill="#FACC15"/>
+              <rect x="14" y="13" width="20" height="29" rx="6" fill="#17171C" stroke="#FACC15" stroke-width="2.2"/>
+              <rect x="19" y="19" width="10" height="12" rx="3" fill="#A855F7" fill-opacity="0.35" stroke="#C084FC" stroke-width="1.5"/>
+              <circle cx="24" cy="36" r="2" fill="#FACC15"/>
+            </svg>
+          </div>
+        `;
+      }
+
+      // Kits de Regalo
+      if (cat === 'kits') {
+        return `
+          <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-amber-500/20 via-jr-gold/15 to-jr-dark border border-jr-gold/40 flex items-center justify-center shrink-0">
+            <svg viewBox="0 0 48 48" class="w-7 h-7" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="18" width="32" height="22" rx="4" fill="#17171C" stroke="#FACC15" stroke-width="2.2"/>
+              <path d="M8 25H40M24 18V40" stroke="#FACC15" stroke-width="2.2"/>
+              <path d="M24 18C24 12 16 10 15 14C14 17 19 18 24 18Z" stroke="#FACC15" stroke-width="2" fill="#FACC15" fill-opacity="0.25"/>
+              <path d="M24 18C24 12 32 10 33 14C34 17 29 18 24 18Z" stroke="#FACC15" stroke-width="2" fill="#FACC15" fill-opacity="0.25"/>
+            </svg>
+          </div>
+        `;
+      }
+
+      // Sprays, Desodorantes y VS
+      if (cat === 'sprays') {
+        return `
+          <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-pink-500/20 via-rose-400/10 to-jr-dark border border-pink-400/35 flex items-center justify-center shrink-0">
+            <svg viewBox="0 0 48 48" class="w-7 h-7" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="19" y="8" width="10" height="6" rx="1.5" fill="#F472B6"/>
+              <path d="M16 18C16 15.8 17.8 14 20 14H28C30.2 14 32 15.8 32 18V38C32 40.2 30.2 42 28 42H20C17.8 42 16 40.2 16 38V18Z" fill="#17171C" stroke="#F472B6" stroke-width="2.2"/>
+              <path d="M34 10L38 8M34 12H39" stroke="#FACC15" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="24" cy="28" r="3.5" stroke="#FACC15" stroke-width="1.8"/>
+            </svg>
+          </div>
+        `;
+      }
+
+      // Skincare Coreano & Capilar
+      if (cat === 'skincare') {
+        const isHair = brand.includes('karseell') || brand.includes('ecolchi') || prod.name.toLowerCase().includes('shampoo');
+        if (isHair) {
+          return `
+            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-amber-600/20 via-jr-gold/10 to-jr-dark border border-amber-400/35 flex items-center justify-center shrink-0">
+              <svg viewBox="0 0 48 48" class="w-7 h-7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 9H28V14H20V9Z" fill="#FACC15"/>
+                <path d="M15 20C15 16.5 18 14 24 14C30 14 33 16.5 33 20V38C33 40.2 31.2 42 29 42H19C16.8 42 15 40.2 15 38V20Z" fill="#17171C" stroke="#F59E0B" stroke-width="2.2"/>
+                <path d="M24 23C24 23 20 27.5 20 30.2C20 32.4 21.8 34 24 34C26.2 34 28 32.4 28 30.2C28 27.5 24 23 24 23Z" fill="#FACC15" fill-opacity="0.3" stroke="#FACC15" stroke-width="1.8"/>
+              </svg>
+            </div>
+          `;
+        }
+        return `
+          <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-emerald-500/20 via-teal-500/10 to-jr-dark border border-emerald-400/35 flex items-center justify-center shrink-0">
+            <svg viewBox="0 0 48 48" class="w-7 h-7" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21 7H27V13H21V7Z" fill="#34D399"/>
+              <rect x="19" y="13" width="10" height="4" rx="1" fill="#FACC15"/>
+              <rect x="15" y="17" width="18" height="24" rx="5" fill="#17171C" stroke="#34D399" stroke-width="2.2"/>
+              <path d="M24 23V35M19 29H29" stroke="#FACC15" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+        `;
+      }
+
+      // Diseñador & Ariana Grande
+      if (cat === 'disenador') {
+        return `
+          <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-sky-400/20 via-jr-gold/15 to-jr-dark border border-sky-400/35 flex items-center justify-center shrink-0">
+            <svg viewBox="0 0 48 48" class="w-7 h-7" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="19" y="7" width="10" height="7" rx="1.5" fill="#FACC15"/>
+              <rect x="21" y="14" width="6" height="3" fill="#94A3B8"/>
+              <rect x="12" y="17" width="24" height="24" rx="5" fill="#17171C" stroke="#38BDF8" stroke-width="2.2"/>
+              <path d="M24 23L28.5 29L24 35L19.5 29L24 23Z" fill="#FACC15" fill-opacity="0.3" stroke="#FACC15" stroke-width="1.8"/>
+            </svg>
+          </div>
+        `;
+      }
+
+      // Perfumería Árabe (Bharara, Al Haramain, Rasasi, French Avenue, Armaf, Lattafa, Afnan, Otras)
+      return `
+        <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-jr-gold/25 via-amber-500/10 to-jr-dark border border-jr-gold/40 flex items-center justify-center shrink-0">
+          <svg viewBox="0 0 48 48" class="w-7 h-7" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 10L24 6L29 10V14H19V10Z" fill="#FACC15"/>
+            <rect x="21" y="14" width="6" height="3" fill="#FDE047"/>
+            <path d="M13 21C13 18.2 15.2 17 18 17H30C32.8 17 35 18.2 35 21V37C35 39.8 32.8 42 30 42H18C15.2 42 13 39.8 13 37V21Z" fill="#17171C" stroke="#FACC15" stroke-width="2.2"/>
+            <rect x="18" y="24" width="12" height="10" rx="2" stroke="#FACC15" stroke-width="1.6" fill="#FACC15" fill-opacity="0.12"/>
+            <circle cx="24" cy="29" r="2" fill="#FACC15"/>
+          </svg>
+        </div>
+      `;
+    }
+
+    /* =========================================================================
+       7. CONTROLES DE FILTRO, BÚSQUEDA Y MODO DE PRECIO
+       ========================================================================= */
+    function setPriceMode(mode) {
+      priceMode = mode;
+      updatePriceModeUI();
+      renderProducts();
+      updateCartUI();
+    }
+
+    function updatePriceModeUI() {
+      const btnU = document.getElementById('modeBtn-unidad');
+      const btnM = document.getElementById('modeBtn-mayor');
+      const cartBtnU = document.getElementById('cartModeBtn-unidad');
+      const cartBtnM = document.getElementById('cartModeBtn-mayor');
+      const cartLabel = document.getElementById('cartModeLabel');
+
+      if (priceMode === 'unidad') {
+        btnU.className = 'px-4 py-2.5 rounded-xl text-xs sm:text-sm font-black transition flex items-center justify-center gap-1.5 bg-jr-gold text-black shadow-gold-sm';
+        btnM.className = 'px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition flex items-center justify-center gap-1.5 text-zinc-300 hover:text-white';
+        if (cartBtnU) cartBtnU.className = 'px-3 py-1 rounded-lg text-[11px] font-black bg-jr-gold text-black transition';
+        if (cartBtnM) cartBtnM.className = 'px-3 py-1 rounded-lg text-[11px] font-bold text-zinc-400 hover:text-white transition';
+        if (cartLabel) cartLabel.textContent = 'Tarifa por Unidad';
+      } else {
+        btnM.className = 'px-4 py-2.5 rounded-xl text-xs sm:text-sm font-black transition flex items-center justify-center gap-1.5 bg-jr-gold text-black shadow-gold-sm';
+        btnU.className = 'px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition flex items-center justify-center gap-1.5 text-zinc-300 hover:text-white';
+        if (cartBtnM) cartBtnM.className = 'px-3 py-1 rounded-lg text-[11px] font-black bg-jr-gold text-black transition';
+        if (cartBtnU) cartBtnU.className = 'px-3 py-1 rounded-lg text-[11px] font-bold text-zinc-400 hover:text-white transition';
+        if (cartLabel) cartLabel.textContent = 'Tarifa por Mayor';
+      }
+    }
+
+    function renderCategories() {
+      const container = document.getElementById('categoryTabsContainer');
+      container.innerHTML = CATEGORIES.map(cat => {
+        const isActive = activeCategory === cat.id;
+        const count = cat.id === 'all'
+          ? PRODUCTS.length
+          : PRODUCTS.filter(p => p.category === cat.id).length;
+
+        return `
+          <button
+            onclick="selectCategory('${cat.id}')"
+            class="shrink-0 px-3.5 py-2 rounded-2xl text-xs font-extrabold transition flex items-center gap-1.5 border ${
+              isActive
+                ? 'bg-jr-gold text-black border-jr-gold shadow-gold-sm'
+                : 'bg-jr-card text-zinc-200 hover:text-white hover:border-jr-gold/40 border-jr-border'
+            }"
+          >
+            <span>${cat.emoji}</span>
+            <span>${cat.label}</span>
+            <span class="text-[10px] px-1.5 py-0.5 rounded-lg ${
+              isActive ? 'bg-black/20 text-black font-black' : 'bg-jr-dark text-zinc-400'
+            }">${count}</span>
+          </button>
+        `;
+      }).join('');
+    }
+
+    function selectCategory(catId) {
+      activeCategory = catId;
+      renderCategories();
+      renderProducts();
+    }
+
+    function handleSearch(val) {
+      searchQuery = val.trim().toLowerCase();
+      const input = document.getElementById('mainSearchInput');
+      if (input && input.value !== val) input.value = val;
+      document.getElementById('clearSearchBtn').classList.toggle('hidden', !searchQuery);
+      renderProducts();
+    }
+
+    function setBudgetFilter(key) {
+      budgetFilter = key;
+      ['all', 'upTo50', 'upTo100', 'over100'].forEach(k => {
+        const btn = document.getElementById(`budgetBtn-${k}`);
+        if (!btn) return;
+        btn.className = k === key
+          ? 'shrink-0 px-3 py-1.5 rounded-xl text-xs font-extrabold bg-jr-gold text-black transition shadow-gold-sm'
+          : 'shrink-0 px-3 py-1.5 rounded-xl text-xs font-bold bg-jr-dark text-zinc-300 hover:text-white border border-jr-border transition';
+      });
+      renderProducts();
+    }
+
+    function setSortOrder(order) {
+      sortOrder = order;
+      renderProducts();
+    }
+
+    function setViewMode(mode) {
+      viewMode = mode;
+      const gBtn = document.getElementById('viewBtn-grid');
+      const lBtn = document.getElementById('viewBtn-list');
+      if (mode === 'grid') {
+        gBtn.className = 'px-2.5 py-1 rounded-lg text-xs font-extrabold bg-jr-gold text-black transition flex items-center gap-1';
+        lBtn.className = 'px-2.5 py-1 rounded-lg text-xs font-bold text-zinc-400 hover:text-white transition flex items-center gap-1';
+      } else {
+        lBtn.className = 'px-2.5 py-1 rounded-lg text-xs font-extrabold bg-jr-gold text-black transition flex items-center gap-1';
+        gBtn.className = 'px-2.5 py-1 rounded-lg text-xs font-bold text-zinc-400 hover:text-white transition flex items-center gap-1';
+      }
+      renderProducts();
+    }
+
+    function resetFilters() {
+      activeCategory = 'all';
+      searchQuery = '';
+      budgetFilter = 'all';
+      sortOrder = 'recommended';
+      const input = document.getElementById('mainSearchInput');
+      if (input) input.value = '';
+      const sortSel = document.getElementById('sortSelect');
+      if (sortSel) sortSel.value = 'recommended';
+      document.getElementById('clearSearchBtn').classList.add('hidden');
+      setBudgetFilter('all');
+      renderCategories();
+      renderProducts();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    /* =========================================================================
+       8. RENDERIZADO DE PRODUCTOS (TARJETAS Y LISTA COMPACTA)
+       ========================================================================= */
+    function renderProductCardHTML(prod) {
+      const unitPrice = getUnitPrice(prod);
+      const mayorPrice = getWholesalePrice(prod);
+      const mainPrice = priceMode === 'mayor' ? mayorPrice : unitPrice;
+      const mainLabel = priceMode === 'mayor' ? 'Por Mayor' : 'Por Unidad';
+      const inCart = cart.find(c => c.id === prod.id);
+      const qty = inCart ? inCart.qty : 0;
+
+      return `
+        <article class="bg-jr-card border border-jr-border rounded-3xl p-4 flex flex-col justify-between product-card">
+          <div>
+            <!-- Encabezado de Tarjeta: Icono SVG + Marca + Nombre -->
+            <div class="flex items-start gap-3">
+              ${getProductIconSVG(prod)}
+              <div class="min-w-0 flex-1">
+                <div class="flex items-center justify-between gap-1.5 mb-1">
+                  <span class="text-[10px] font-extrabold uppercase tracking-wider text-jr-gold bg-jr-gold/10 border border-jr-gold/25 px-2 py-0.5 rounded-md truncate">
+                    ${prod.brand}
+                  </span>
+                  ${prod.category === 'vapers'
+                    ? '<span class="text-[10px] font-extrabold text-purple-300 bg-purple-500/15 border border-purple-400/30 px-2 py-0.5 rounded-md shrink-0">Mayor +10u</span>'
+                    : '<span class="text-[10px] font-bold text-emerald-400 shrink-0">● Disponible</span>'
+                  }
+                </div>
+                <h3 class="text-sm sm:text-base font-black text-white leading-snug">
+                  ${prod.name}
+                </h3>
+              </div>
+            </div>
+
+            <!-- Notas Olfativas / Contenido del Kit / Descripción -->
+            <p class="text-[11px] sm:text-xs text-zinc-400 leading-relaxed mt-3 line-clamp-2" title="${prod.notes}">
+              ${prod.notes}
+            </p>
+          </div>
+
+          <!-- Precios Claros (Unidad + Por Mayor) y Botones de Compra -->
+          <div class="pt-3 mt-3.5 border-t border-jr-border/80 space-y-3">
+            <div>
+              <div class="flex items-baseline justify-between gap-2">
+                <span class="text-[11px] font-bold uppercase text-zinc-400">${mainLabel}</span>
+                <span class="text-xl sm:text-2xl font-black tracking-tight text-jr-gold">
+                  ${formatARS(mainPrice)}
+                </span>
+              </div>
+              <div class="text-[11px] text-zinc-400 font-medium mt-0.5 flex items-center justify-between flex-wrap gap-1">
+                <span>Unidad: <strong class="text-zinc-200">${formatARS(unitPrice)}</strong></span>
+                <span>Por Mayor: <strong class="text-zinc-200">${formatARS(mayorPrice)}</strong></span>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <button
+                onclick="orderSingleProductWhatsApp('${prod.id}')"
+                class="flex-1 bg-jr-whatsapp hover:bg-jr-whatsappHover text-black font-black py-2.5 px-3 rounded-2xl text-xs transition flex items-center justify-center gap-1.5 shadow-wp active:scale-95"
+              >
+                <i class="fa-brands fa-whatsapp text-base"></i>
+                <span>Pedir por WhatsApp</span>
+              </button>
+
+              <button
+                onclick="addToCart('${prod.id}')"
+                class="${
+                  qty > 0
+                    ? 'bg-jr-gold text-black border-jr-gold'
+                    : 'bg-jr-dark hover:bg-zinc-800 text-zinc-200 border-jr-border'
+                } border font-black py-2.5 px-3 rounded-2xl text-xs transition shrink-0 active:scale-95"
+                title="Sumar al carrito"
+              >
+                ${qty > 0 ? `🛒 ${qty}` : '+ Carrito'}
+              </button>
+            </div>
+          </div>
+        </article>
+      `;
+    }
+
+    function renderListSectionHTML(title, items) {
+      return `
+        <section class="bg-jr-card border border-jr-border rounded-3xl overflow-hidden shadow-lg">
+          <div class="bg-jr-dark px-4 py-3.5 border-b border-jr-border flex items-center justify-between">
+            <h2 class="text-sm sm:text-base font-black text-jr-gold tracking-wide">${title}</h2>
+            <span class="text-xs font-bold text-zinc-400">${items.length} productos</span>
+          </div>
+          <div class="divide-y divide-jr-border/70">
+            ${items.map(prod => {
+              const unitPrice = getUnitPrice(prod);
+              const mayorPrice = getWholesalePrice(prod);
+              const mainPrice = priceMode === 'mayor' ? mayorPrice : unitPrice;
+              const inCart = cart.find(c => c.id === prod.id);
+              const qty = inCart ? inCart.qty : 0;
+
+              return `
+                <div class="px-4 py-3 hover:bg-jr-cardHover transition flex flex-col sm:flex-row sm:items-center justify-between gap-2.5">
+                  <div class="min-w-0 flex-1">
+                    <div class="flex items-center gap-2 flex-wrap">
+                      <span class="text-[10px] font-extrabold uppercase text-jr-gold bg-jr-gold/10 px-1.5 py-0.5 rounded">${prod.brand}</span>
+                      <span class="font-extrabold text-sm text-white">${prod.name}</span>
+                    </div>
+                    <p class="text-[11px] text-zinc-400 truncate mt-0.5">${prod.notes}</p>
+                  </div>
+                  <div class="flex items-center justify-between sm:justify-end gap-3 shrink-0">
+                    <div class="text-left sm:text-right">
+                      <div class="text-base font-black text-jr-gold leading-none">${formatARS(mainPrice)}</div>
+                      <div class="text-[10px] text-zinc-400 mt-0.5">U: ${formatARS(unitPrice)} • M: ${formatARS(mayorPrice)}</div>
+                    </div>
+                    <div class="flex items-center gap-1.5">
+                      <button
+                        onclick="orderSingleProductWhatsApp('${prod.id}')"
+                        class="bg-jr-whatsapp hover:bg-jr-whatsappHover text-black font-black px-3 py-2 rounded-xl text-xs transition flex items-center gap-1"
+                      >
+                        <i class="fa-brands fa-whatsapp text-sm"></i>
+                        <span>Pedir</span>
+                      </button>
+                      <button
+                        onclick="addToCart('${prod.id}')"
+                        class="${qty > 0 ? 'bg-jr-gold text-black border-jr-gold' : 'bg-jr-dark text-zinc-200 border-jr-border hover:border-jr-gold'} border font-extrabold px-2.5 py-2 rounded-xl text-xs transition"
+                      >
+                        ${qty > 0 ? `🛒 ${qty}` : '+'}
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </section>
+      `;
+    }
+
+    function renderProducts() {
+      const container = document.getElementById('catalogSectionsContainer');
+      const emptyState = document.getElementById('emptyCatalogState');
+      const countText = document.getElementById('resultsCountText');
+      const resetBtn = document.getElementById('resetAllFiltersBtn');
+      const vapersBanner = document.getElementById('vapersNoticeBanner');
+      const quickVapersBtn = document.getElementById('quickVapersBtn');
+
+      // Mostrar banner de Vapers siempre en Todos o Vapers
+      if (vapersBanner) {
+        const showBanner = activeCategory === 'all' || activeCategory === 'vapers';
+        vapersBanner.classList.toggle('hidden', !showBanner);
+        if (quickVapersBtn) quickVapersBtn.classList.toggle('hidden', activeCategory === 'vapers');
+      }
+
+      const filtered = PRODUCTS.filter(prod => {
+        const matchesCat = activeCategory === 'all' || prod.category === activeCategory;
+        const matchesSearch =
+          !searchQuery ||
+          prod.name.toLowerCase().includes(searchQuery) ||
+          prod.brand.toLowerCase().includes(searchQuery) ||
+          prod.notes.toLowerCase().includes(searchQuery);
+
+        const activePrice = getActivePrice(prod);
+        let matchesBudget = true;
+        if (budgetFilter === 'upTo50') matchesBudget = activePrice <= 50000;
+        else if (budgetFilter === 'upTo100') matchesBudget = activePrice <= 100000;
+        else if (budgetFilter === 'over100') matchesBudget = activePrice > 100000;
+
+        return matchesCat && matchesSearch && matchesBudget;
+      });
+
+      const hasFilters = activeCategory !== 'all' || searchQuery !== '' || budgetFilter !== 'all' || sortOrder !== 'recommended';
+      resetBtn.classList.toggle('hidden', !hasFilters);
+      countText.textContent = `Mostrando ${filtered.length} de ${PRODUCTS.length} productos (${priceMode === 'mayor' ? 'Tarifa Por Mayor' : 'Tarifa Por Unidad'})`;
+
+      if (filtered.length === 0) {
+        container.innerHTML = '';
+        emptyState.classList.remove('hidden');
+        return;
+      }
+
+      emptyState.classList.add('hidden');
+
+      // Si eligió un orden global (precio o A-Z)
+      if (sortOrder !== 'recommended') {
+        const sorted = [...filtered].sort((a, b) => {
+          if (sortOrder === 'price-asc') return getActivePrice(a) - getActivePrice(b);
+          if (sortOrder === 'price-desc') return getActivePrice(b) - getActivePrice(a);
+          return a.name.localeCompare(b.name, 'es');
+        });
+
+        const headingMap = {
+          'price-asc': '⬇️ Productos ordenados de menor a mayor precio',
+          'price-desc': '⬆️ Productos ordenados de mayor a menor precio',
+          'az': '🔤 Productos ordenados alfabéticamente (A - Z)'
+        };
+
+        if (viewMode === 'list') {
+          container.innerHTML = renderListSectionHTML(headingMap[sortOrder], sorted);
+        } else {
+          container.innerHTML = `
+            <section class="space-y-4">
+              <div class="flex items-center justify-between border-b border-jr-gold/40 pb-2">
+                <h2 class="text-sm sm:text-lg font-black text-jr-gold">${headingMap[sortOrder]}</h2>
+                <span class="text-xs font-bold text-zinc-400">${sorted.length} resultados</span>
+              </div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                ${sorted.map(p => renderProductCardHTML(p)).join('')}
+              </div>
+            </section>
+          `;
+        }
+        return;
+      }
+
+      // Agrupado por Categoría (Orden recomendado con Vapers primero)
+      const grouped = {};
+      filtered.forEach(p => {
+        if (!grouped[p.category]) grouped[p.category] = [];
+        grouped[p.category].push(p);
+      });
+
+      const activeCats = CATEGORIES.filter(c => c.id !== 'all' && grouped[c.id] && grouped[c.id].length > 0);
+
+      container.innerHTML = activeCats.map(catObj => {
+        const items = grouped[catObj.id];
+        if (viewMode === 'list') {
+          return renderListSectionHTML(catObj.title, items);
+        }
+        return `
+          <section class="space-y-4">
+            <div class="flex items-center justify-between border-b-2 border-jr-gold/35 pb-2.5">
+              <h2 class="text-base sm:text-xl font-black text-white">
+                <span class="text-jr-gold">${catObj.title}</span>
+              </h2>
+              <span class="bg-jr-card border border-jr-border text-zinc-300 text-xs font-extrabold px-3 py-1 rounded-xl shrink-0">
+                ${items.length} ${items.length === 1 ? 'producto' : 'productos'}
+              </span>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              ${items.map(p => renderProductCardHTML(p)).join('')}
+            </div>
+          </section>
+        `;
+      }).join('');
+    }
+
+    /* =========================================================================
+       9. CARRITO DE COMPRAS Y ENVÍO A WHATSAPP
+       ========================================================================= */
+    function addToCart(productId) {
+      const prod = PRODUCTS.find(p => p.id === productId);
+      if (!prod) return;
+
+      const existing = cart.find(c => c.id === productId);
+      if (existing) existing.qty += 1;
+      else cart.push({ id: prod.id, qty: 1 });
+
+      saveCart();
+      renderProducts();
+      updateCartUI();
+      showToast(`Sumado al carrito: ${prod.name}`);
+    }
+
+    function changeCartQty(productId, delta) {
+      const idx = cart.findIndex(c => c.id === productId);
+      if (idx === -1) return;
+      cart[idx].qty += delta;
+      if (cart[idx].qty <= 0) cart.splice(idx, 1);
+
+      saveCart();
+      renderProducts();
+      updateCartUI();
+    }
+
+    function clearCart() {
+      cart = [];
+      saveCart();
+      renderProducts();
+      updateCartUI();
+      showToast('Carrito vaciado');
+    }
+
+    function updateCartUI() {
+      const detailedItems = cart
+        .map(item => {
+          const prod = PRODUCTS.find(p => p.id === item.id);
+          return prod ? { prod, qty: item.qty } : null;
+        })
+        .filter(Boolean);
+
+      const totalQty = detailedItems.reduce((sum, i) => sum + i.qty, 0);
+      const totalAmount = detailedItems.reduce((sum, i) => sum + (getActivePrice(i.prod) * i.qty), 0);
+
+      const badge = document.getElementById('headerCartBadge');
+      const totalHeader = document.getElementById('headerCartTotalText');
+      const drawerTotal = document.getElementById('cartDrawerTotal');
+
+      if (badge) badge.textContent = totalQty;
+      if (totalHeader) totalHeader.textContent = formatARS(totalAmount);
+      if (drawerTotal) drawerTotal.textContent = formatARS(totalAmount);
+
+      const container = document.getElementById('cartItemsContainer');
+      if (!container) return;
+
+      if (detailedItems.length === 0) {
+        container.innerHTML = `
+          <div class="text-center py-10 px-4 bg-jr-dark border border-jr-border rounded-2xl">
+            <p class="text-sm font-extrabold text-white mb-1">Tu carrito está vacío</p>
+            <p class="text-xs text-zinc-400">
+              Tocá <strong>"Pedir por WhatsApp"</strong> directo en cualquier producto o usá <strong>"+ Carrito"</strong> para encargar varios juntos.
+            </p>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = detailedItems.map(({ prod, qty }) => {
+        const unitVal = getActivePrice(prod);
+        return `
+          <div class="bg-jr-dark border border-jr-border rounded-2xl p-3.5 flex items-center justify-between gap-2.5">
+            <div class="min-w-0 flex-1">
+              <span class="text-[10px] font-extrabold text-jr-gold uppercase">${prod.brand}</span>
+              <p class="text-xs sm:text-sm font-extrabold text-white truncate">${prod.name}</p>
+              <p class="text-xs text-zinc-400 mt-0.5">
+                ${formatARS(unitVal)} c/u → <strong class="text-jr-gold">${formatARS(unitVal * qty)}</strong>
+              </p>
+            </div>
+            <div class="flex items-center gap-1.5 bg-jr-card rounded-xl p-1 border border-jr-border shrink-0">
+              <button onclick="changeCartQty('${prod.id}', -1)" class="w-7 h-7 rounded-lg bg-jr-dark hover:bg-zinc-800 text-white font-bold text-xs">-</button>
+              <span class="text-xs font-black px-1.5">${qty}</span>
+              <button onclick="changeCartQty('${prod.id}', 1)" class="w-7 h-7 rounded-lg bg-jr-gold text-black font-black text-xs">+</button>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function toggleCart(open) {
+      document.getElementById('cartDrawerBackdrop').classList.toggle('hidden', !open);
+    }
+
+    function getCleanPhone() {
+      return String(storeConfig.whatsappNumber || '5493885856562').replace(/\D/g, '');
+    }
+
+    function syncWhatsAppLinks() {
+      const phone = getCleanPhone();
+      const floatBtn = document.getElementById('floatingWhatsAppBtn');
+      if (floatBtn) {
+        const msg = encodeURIComponent('Hola JR PERFUMERÍA! 👋 Estaba viendo tu catálogo web y quiero hacerte una consulta.');
+        floatBtn.href = `https://wa.me/${phone}?text=${msg}`;
+      }
+    }
+
+    function openGeneralWhatsApp() {
+      const msg = 'Hola JR PERFUMERÍA! 👋 Estaba viendo tu catálogo web y quiero hacerte una consulta.';
+      window.open(`https://wa.me/${getCleanPhone()}?text=${encodeURIComponent(msg)}`, '_blank');
+    }
+
+    function orderSingleProductWhatsApp(productId) {
+      const prod = PRODUCTS.find(p => p.id === productId);
+      if (!prod) return;
+
+      const modeText = priceMode === 'mayor' ? 'Por Mayor' : 'por Unidad';
+      const priceVal = getActivePrice(prod);
+      const extraVaper = prod.category === 'vapers' ? ' ¿Qué sabores tenés disponibles?' : '';
+
+      const msg = `Hola JR PERFUMERÍA! 👋 Vi en tu catálogo web *${prod.brand} - ${prod.name}* en precio *${modeText}* (*${formatARS(priceVal)}*) y quiero pedirlo.${extraVaper}`;
+      window.open(`https://wa.me/${getCleanPhone()}?text=${encodeURIComponent(msg)}`, '_blank');
+    }
+
+    function sendCartViaWhatsApp() {
+      const detailedItems = cart
+        .map(item => {
+          const prod = PRODUCTS.find(p => p.id === item.id);
+          return prod ? { prod, qty: item.qty } : null;
+        })
+        .filter(Boolean);
+
+      if (detailedItems.length === 0) {
+        openGeneralWhatsApp();
+        return;
+      }
+
+      const name = (document.getElementById('customerName').value || '').trim();
+      const delivery = document.getElementById('deliveryMethod').value;
+      const modeText = priceMode === 'mayor' ? 'POR MAYOR' : 'POR UNIDAD';
+      const totalAmount = detailedItems.reduce((sum, i) => sum + (getActivePrice(i.prod) * i.qty), 0);
+
+      const lines = [
+        `👑 *HOLA 🇦🇷 JR PERFUMERÍA 🇵🇾!* 👋`,
+        `Quiero hacer el siguiente pedido (*Tarifa ${modeText}*):`,
+        ``
+      ];
+
+      detailedItems.forEach(({ prod, qty }) => {
+        const sub = getActivePrice(prod) * qty;
+        lines.push(`✅ *${qty}x* ${prod.brand} - ${prod.name} — *${formatARS(sub)}*`);
+      });
+
+      lines.push(``);
+      lines.push(`💰 *TOTAL ESTIMADO:* ${formatARS(totalAmount)}`);
+      if (name) lines.push(`👤 *Nombre:* ${name}`);
+      lines.push(`📍 *Entrega:* ${delivery}`);
+
+      window.open(`https://wa.me/${getCleanPhone()}?text=${encodeURIComponent(lines.join('\n'))}`, '_blank');
+    }
+
+    /* =========================================================================
+       10. PANEL DUEÑO (RECARGOS EN VIVO + EXPORTAR INDEX.HTML AUTOCONTENIDO)
+       ========================================================================= */
+    function openAdminModal() {
+      tempAdminMarkupType = storeConfig.markupType || 'percent';
+      document.getElementById('adminUnidadInput').value = storeConfig.markupUnidad;
+      document.getElementById('adminMayorInput').value = storeConfig.markupMayor;
+      document.getElementById('adminWhatsappInput').value = storeConfig.whatsappNumber;
+      updateAdminMarkupTypeUI();
+      document.getElementById('adminModalBackdrop').classList.remove('hidden');
+    }
+
+    function closeAdminModal() {
+      document.getElementById('adminModalBackdrop').classList.add('hidden');
+    }
+
+    function setAdminMarkupType(type) {
+      tempAdminMarkupType = type;
+      const uIn = document.getElementById('adminUnidadInput');
+      const mIn = document.getElementById('adminMayorInput');
+      // Sugerencias útiles al cambiar de modo
+      if (type === 'percent' && Number(uIn.value) > 500) {
+        uIn.value = 30;
+        mIn.value = 25;
+      } else if (type === 'fixed' && Number(uIn.value) <= 200) {
+        uIn.value = 30000;
+        mIn.value = 25000;
+      }
+      updateAdminMarkupTypeUI();
+    }
+
+    function updateAdminMarkupTypeUI() {
+      const btnP = document.getElementById('markupTypeBtn-percent');
+      const btnF = document.getElementById('markupTypeBtn-fixed');
+      const lblU = document.getElementById('adminUnidadLabel');
+      const lblM = document.getElementById('adminMayorLabel');
+      const hint = document.getElementById('markupPreviewHint');
+      const valU = Number(document.getElementById('adminUnidadInput').value || 0);
+      const valM = Number(document.getElementById('adminMayorInput').value || 0);
+
+      if (tempAdminMarkupType === 'percent') {
+        btnP.className = 'px-3 py-1 rounded-lg text-xs font-black bg-jr-gold text-black transition';
+        btnF.className = 'px-3 py-1 rounded-lg text-xs font-bold text-zinc-400 hover:text-white transition';
+        lblU.textContent = 'Recargo por Unidad (%)';
+        lblM.textContent = 'Recargo por Mayor (%)';
+        const exU = roundTo100(100000 * (1 + valU / 100));
+        const exM = roundTo100(100000 * (1 + valM / 100));
+        hint.textContent = `Ejemplo con base $100.000: Unidad (+${valU}%) → ${formatARS(exU)} | Por Mayor (+${valM}%) → ${formatARS(exM)}.`;
+      } else {
+        btnF.className = 'px-3 py-1 rounded-lg text-xs font-black bg-jr-gold text-black transition';
+        btnP.className = 'px-3 py-1 rounded-lg text-xs font-bold text-zinc-400 hover:text-white transition';
+        lblU.textContent = 'Recargo Fijo por Unidad ($)';
+        lblM.textContent = 'Recargo Fijo por Mayor ($)';
+        const exU = roundTo100(100000 + valU);
+        const exM = roundTo100(100000 + valM);
+        hint.textContent = `Ejemplo con base $100.000: Unidad (+${formatARS(valU)}) → ${formatARS(exU)} | Por Mayor (+${formatARS(valM)}) → ${formatARS(exM)}.`;
+      }
+    }
+
+    // Actualizar vista previa en vivo al tipear
+    document.addEventListener('input', e => {
+      if (e.target && (e.target.id === 'adminUnidadInput' || e.target.id === 'adminMayorInput')) {
+        updateAdminMarkupTypeUI();
+      }
+    });
+
+    function saveOwnerSettings() {
+      const uVal = Number(document.getElementById('adminUnidadInput').value);
+      const mVal = Number(document.getElementById('adminMayorInput').value);
+      const wp = document.getElementById('adminWhatsappInput').value.trim();
+
+      if (isNaN(uVal) || isNaN(mVal)) {
+        showToast('Ingresá valores numéricos válidos');
+        return;
+      }
+
+      storeConfig = {
+        markupType: tempAdminMarkupType,
+        markupUnidad: uVal,
+        markupMayor: mVal,
+        whatsappNumber: wp || '5493885856562'
+      };
+
+      try {
+        localStorage.setItem(STORAGE_KEY_CONFIG, JSON.stringify(storeConfig));
+      } catch (err) {}
+
+      syncWhatsAppLinks();
+      renderProducts();
+      updateCartUI();
+      closeAdminModal();
+      showToast('¡Precios y configuración actualizados!');
+    }
+
+    function resetDefaultConfig() {
+      tempAdminMarkupType = 'percent';
+      document.getElementById('adminUnidadInput').value = 30;
+      document.getElementById('adminMayorInput').value = 25;
+      document.getElementById('adminWhatsappInput').value = '5493885856562';
+      updateAdminMarkupTypeUI();
+      saveOwnerSettings();
+    }
+
+    function copyCatalogForWhatsApp() {
+      const grouped = {};
+      PRODUCTS.forEach(p => {
+        if (!grouped[p.category]) grouped[p.category] = [];
+        grouped[p.category].push(p);
+      });
+
+      const out = [
+        `👑 *CATÁLOGO OFICIAL 🇦🇷 JR PERFUMERÍA 🇵🇾* 👑`,
+        `📲 Pedidos al WhatsApp: 388 585-6562`,
+        ``
+      ];
+
+      CATEGORIES.filter(c => c.id !== 'all').forEach(catObj => {
+        const list = grouped[catObj.id];
+        if (!list || list.length === 0) return;
+        out.push(`*${catObj.title.toUpperCase()}*`);
+        list.forEach(p => {
+          out.push(`${p.brand} ${p.name} — Unidad: ${formatARS(getUnitPrice(p))} | Mayor: ${formatARS(getWholesalePrice(p))}`);
+        });
+        out.push('');
+      });
+
+      const ta = document.createElement('textarea');
+      ta.value = out.join('\n');
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+      showToast('¡Lista copiada para pegar en WhatsApp!');
+    }
+
+    function downloadStandaloneHtml() {
+      try {
+        // Clonar el documento limpio para descargar sin modales abiertos ni estado sucio
+        const clone = document.documentElement.cloneNode(true);
+
+        const clearIds = ['catalogSectionsContainer', 'categoryTabsContainer', 'cartItemsContainer'];
+        clearIds.forEach(id => {
+          const el = clone.querySelector('#' + id);
+          if (el) el.innerHTML = '';
+        });
+
+        ['cartDrawerBackdrop', 'adminModalBackdrop'].forEach(id => {
+          const el = clone.querySelector('#' + id);
+          if (el) el.classList.add('hidden');
+        });
+
+        const searchEl = clone.querySelector('#mainSearchInput');
+        if (searchEl) searchEl.setAttribute('value', '');
+
+        // Incrustar la configuración actual del dueño directo en el archivo descargado
+        const bakedScript = clone.querySelector('#jr-baked-config');
+        if (bakedScript) {
+          bakedScript.textContent = `\n    window.JR_BAKED_CONFIG = ${JSON.stringify(storeConfig, null, 6)};\n  `;
+        }
+
+        const htmlContent = '<!DOCTYPE html>\n' + clone.outerHTML;
+        const blob = new Blob([htmlContent], { type: 'text/html;charset=utf-8' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'index.html';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        showToast('¡Archivo index.html descargado y listo para subir!');
+      } catch (err) {
+        showToast('Error al generar la descarga');
+      }
+    }
+
+    /* =========================================================================
+       11. TOAST DE CONFIRMACIÓN
+       ========================================================================= */
+    let toastTimer;
+    function showToast(message) {
+      const toast = document.getElementById('toastNotification');
+      const msgEl = document.getElementById('toastMessage');
+      if (!toast || !msgEl) return;
+      msgEl.textContent = message;
+      toast.classList.remove('-translate-y-12', 'opacity-0');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => {
+        toast.classList.add('-translate-y-12', 'opacity-0');
+      }, 2500);
+    }
+  </script>
+</body>
+</html>
